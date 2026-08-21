@@ -1,0 +1,3121 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Incident & Concern Dashboard</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="data:image/png;base64,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"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <style>
+      :root {
+        --bg: #f5f6fb;
+        --card-bg: #ffffff;
+        --text-dark: #1f2430;
+        --text-muted: #8b90a0;
+        --sidebar-bg: #ffffff;
+        --border: #eef0f5;
+        --blue: #4f7cff;
+        --blue-soft: #eaf0ff;
+        --red: #ff6b6b;
+        --red-soft: #ffecec;
+        --purple: #9b6bff;
+        --purple-soft: #f3edff;
+        --teal: #12b8a6;
+        --teal-soft: #e3faf6;
+        --radius: 18px;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background: var(--bg);
+        font-family:
+          "Inter",
+          -apple-system,
+          "Segoe UI",
+          Tahoma,
+          sans-serif;
+        color: var(--text-dark);
+      }
+      .app-shell {
+        display: flex;
+        min-height: 100vh;
+        align-items: stretch;
+      }
+
+      /* ---------- Sidebar ---------- */
+      .sidebar {
+        width: 270px;
+        flex-shrink: 0;
+        background: var(--sidebar-bg);
+        border-right: 1px solid var(--border);
+        transition:
+          width 0.22s ease,
+          padding 0.22s ease,
+          opacity 0.18s ease;
+        overflow: hidden;
+      }
+      .sidebar.collapsed {
+        width: 0;
+        opacity: 0;
+      }
+      .sidebar-inner {
+        width: 270px;
+        padding: 22px 18px;
+        height: 100%;
+        overflow-y: auto;
+      }
+      .sidebar-logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 800;
+        font-size: 1.05rem;
+        margin-bottom: 22px;
+      }
+      .sidebar-logo .logo-badge {
+        width: 36px;
+        height: 36px;
+        border-radius: 10px;
+        background: linear-gradient(135deg, var(--blue), var(--purple));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 1.1rem;
+      }
+      .sidebar-section-title {
+        font-size: 0.68rem;
+        font-weight: 800;
+        letter-spacing: 0.06em;
+        color: var(--text-muted);
+        text-transform: uppercase;
+        margin: 18px 0 10px;
+      }
+      .filter-group {
+        margin-bottom: 12px;
+      }
+      .filter-group-label {
+        font-size: 0.72rem;
+        font-weight: 700;
+        color: var(--text-muted);
+        margin-bottom: 5px;
+      }
+      .filter-dropdown-menu {
+        max-height: 230px;
+        overflow-y: auto;
+      }
+      .sidebar .dropdown-toggle {
+        border-radius: 10px;
+        border-color: #e3e5ee;
+        font-size: 0.8rem;
+      }
+      .btn-reset-filters {
+        border-radius: 10px;
+        font-size: 0.8rem;
+      }
+
+      /* ---------- Main ---------- */
+      .main-area {
+        flex: 1;
+        min-width: 0;
+        padding: 20px 26px 30px;
+      }
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 20px;
+      }
+      .topbar-left {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .btn-toggle-sidebar {
+        width: 38px;
+        height: 38px;
+        border-radius: 10px;
+        border: 1px solid var(--border);
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .topbar h4 {
+        font-weight: 800;
+        margin: 0;
+      }
+      .topbar-actions {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+      .granularity-toggle .btn {
+        border-radius: 20px !important;
+        font-size: 0.78rem;
+        padding: 5px 14px;
+      }
+
+      .nav-pills .nav-link {
+        color: #555;
+        border-radius: 10px;
+        font-weight: 700;
+        margin-right: 6px;
+        border: 1px solid var(--border);
+        font-size: 0.85rem;
+        background: #fff;
+      }
+      .nav-pills .nav-link.active {
+        background: var(--text-dark);
+        color: #fff;
+        border-color: var(--text-dark);
+      }
+
+      /* ---------- KPI cards ---------- */
+      .kpi-card {
+        background: var(--card-bg);
+        border-radius: var(--radius);
+        padding: 18px 20px;
+        box-shadow: 0 2px 14px rgba(20, 20, 60, 0.05);
+        height: 100%;
+      }
+      .kpi-icon {
+        width: 42px;
+        height: 42px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.15rem;
+        margin-bottom: 14px;
+      }
+      .kpi-label {
+        font-size: 0.78rem;
+        color: var(--text-muted);
+        font-weight: 700;
+        margin-bottom: 6px;
+      }
+      .kpi-value-row {
+        display: flex;
+        align-items: baseline;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+      .kpi-value {
+        font-size: 1.85rem;
+        font-weight: 800;
+        line-height: 1.1;
+      }
+      .kpi-badge {
+        font-size: 0.72rem;
+        font-weight: 800;
+        padding: 3px 9px;
+        border-radius: 20px;
+        display: none;
+      }
+      .kpi-badge.up {
+        background: #e6f8ee;
+        color: #1a9c53;
+        display: inline-block;
+      }
+      .kpi-badge.down {
+        background: #fdeaea;
+        color: #e14747;
+        display: inline-block;
+      }
+      .kpi-sub {
+        font-size: 0.72rem;
+        color: var(--text-muted);
+        margin-top: 8px;
+      }
+
+      /* ---------- Chart / content cards ---------- */
+      .chart-card {
+        background: #fff;
+        border-radius: var(--radius);
+        padding: 18px;
+        box-shadow: 0 2px 14px rgba(20, 20, 60, 0.05);
+        height: 100%;
+      }
+      .chart-card .chart-title {
+        font-weight: 700;
+        font-size: 0.88rem;
+        margin-bottom: 12px;
+        color: var(--text-dark);
+      }
+      .section-title {
+        font-weight: 800;
+        font-size: 0.95rem;
+        margin: 26px 0 12px;
+        color: var(--text-dark);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .section-title::before {
+        content: "";
+        width: 4px;
+        height: 16px;
+        background: var(--blue);
+        border-radius: 4px;
+      }
+
+      .table-responsive {
+        max-height: 550px;
+        overflow-y: auto;
+      }
+      th {
+        white-space: nowrap;
+      }
+      .action-btns button {
+        padding: 2px 8px;
+        font-size: 0.8rem;
+        margin: 0 2px;
+      }
+
+      .trend-table-wrapper {
+        margin-top: 16px;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      .trend-table th,
+      .trend-table td {
+        vertical-align: middle;
+        padding: 6px 8px;
+        font-size: 0.78rem;
+      }
+      .trend-table thead {
+        background: var(--text-dark);
+        color: #fff;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+      }
+      .trend-table tfoot {
+        background: #f8f9fc;
+        font-weight: 700;
+      }
+
+      /* ---------- Import Loading Overlay ---------- */
+      #importLoadingOverlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(255, 255, 255, 0.85);
+        z-index: 2000;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 16px;
+        backdrop-filter: blur(2px);
+      }
+      .import-spinner {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        border: 5px solid #e5e7eb;
+        border-top-color: var(--blue);
+        border-right-color: var(--purple);
+        animation: import-spin 0.8s linear infinite;
+      }
+      @keyframes import-spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .import-loading-text {
+        font-weight: 700;
+        color: var(--text-dark);
+        font-size: 0.95rem;
+      }
+      .import-loading-sub {
+        font-size: 0.78rem;
+        color: var(--text-muted);
+      }
+
+      /* ---------- Import Preview Modal ---------- */
+      .import-preview-table thead {
+        background: var(--text-dark);
+        color: #fff;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+      }
+      .import-preview-table th,
+      .import-preview-table td {
+        font-size: 0.78rem;
+        vertical-align: middle;
+        white-space: nowrap;
+      }
+      tr.import-row-dup {
+        background: #fff8e7;
+      }
+      tr.import-row-dup:hover {
+        background: #ffefc9;
+      }
+      .import-filter-btn.active {
+        background: var(--text-dark);
+        color: #fff;
+        border-color: var(--text-dark);
+      }
+      .import-detail-cell {
+        cursor: pointer;
+        max-width: 280px;
+      }
+      .import-detail-cell .detail-text {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .import-detail-cell .detail-text.expanded {
+        white-space: normal;
+        max-width: 420px;
+      }
+      .import-detail-cell:hover {
+        background: #f5f6fb;
+      }
+
+      @media (max-width: 860px) {
+        .sidebar {
+          position: fixed;
+          z-index: 1050;
+          height: 100vh;
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+        }
+        .sidebar.collapsed {
+          width: 0;
+        }
+        .sidebar:not(.collapsed) {
+          width: 270px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app-shell">
+      <!-- ================= Sidebar : Filters ================= -->
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-inner">
+          <div class="sidebar-logo">
+            <span class="logo-badge">🏥</span> Incident Dashboard
+          </div>
+
+          <div class="sidebar-section-title">Filters</div>
+
+          <div class="filter-group">
+            <div class="filter-group-label">Year</div>
+            <div class="dropdown">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle btn-sm w-100 text-start px-2"
+                type="button"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                id="btn_filterYear"
+              >
+                All
+              </button>
+              <ul
+                class="dropdown-menu w-100 p-2 filter-dropdown-menu"
+                id="menu_filterYear"
+              ></ul>
+            </div>
+          </div>
+          <div class="filter-group">
+            <div class="filter-group-label">Month</div>
+            <div class="dropdown">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle btn-sm w-100 text-start px-2"
+                type="button"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                id="btn_filterMonth"
+              >
+                All
+              </button>
+              <ul
+                class="dropdown-menu w-100 p-2 filter-dropdown-menu"
+                id="menu_filterMonth"
+              ></ul>
+            </div>
+          </div>
+          <div class="filter-group">
+            <div class="filter-group-label">Department</div>
+            <div class="dropdown">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle btn-sm w-100 text-start px-2"
+                type="button"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                id="btn_filterDept"
+              >
+                All
+              </button>
+              <ul
+                class="dropdown-menu w-100 p-2 filter-dropdown-menu"
+                id="menu_filterDept"
+              ></ul>
+            </div>
+          </div>
+          <div class="filter-group">
+            <div class="filter-group-label">Sub Topic 1</div>
+            <div class="dropdown">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle btn-sm w-100 text-start px-2"
+                type="button"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                id="btn_filterTopic"
+              >
+                All
+              </button>
+              <ul
+                class="dropdown-menu w-100 p-2 filter-dropdown-menu"
+                id="menu_filterTopic"
+              ></ul>
+            </div>
+          </div>
+          <div class="filter-group">
+            <div class="filter-group-label">Sub Topic 2</div>
+            <div class="dropdown">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle btn-sm w-100 text-start px-2"
+                type="button"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                id="btn_filterTopic2"
+              >
+                All
+              </button>
+              <ul
+                class="dropdown-menu w-100 p-2 filter-dropdown-menu"
+                id="menu_filterTopic2"
+              ></ul>
+            </div>
+          </div>
+          <div class="filter-group">
+            <div class="filter-group-label">Level</div>
+            <div class="dropdown">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle btn-sm w-100 text-start px-2"
+                type="button"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                id="btn_filterLevel"
+              >
+                All
+              </button>
+              <ul
+                class="dropdown-menu w-100 p-2 filter-dropdown-menu"
+                id="menu_filterLevel"
+              ></ul>
+            </div>
+          </div>
+          <div class="filter-group">
+            <div class="filter-group-label">HAD / LASA</div>
+            <div class="dropdown">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle btn-sm w-100 text-start px-2"
+                type="button"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                id="btn_filterHAD"
+              >
+                All
+              </button>
+              <ul
+                class="dropdown-menu w-100 p-2 filter-dropdown-menu"
+                id="menu_filterHAD"
+              ></ul>
+            </div>
+          </div>
+          <div class="filter-group">
+            <div class="filter-group-label">Concern Topic</div>
+            <div class="dropdown">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle btn-sm w-100 text-start px-2"
+                type="button"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                id="btn_filterConcernTopic"
+              >
+                All
+              </button>
+              <ul
+                class="dropdown-menu w-100 p-2 filter-dropdown-menu"
+                id="menu_filterConcernTopic"
+              ></ul>
+            </div>
+          </div>
+          <div class="filter-group">
+            <div class="filter-group-label">Inform By</div>
+            <div class="dropdown">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle btn-sm w-100 text-start px-2"
+                type="button"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                id="btn_filterInformBy"
+              >
+                All
+              </button>
+              <ul
+                class="dropdown-menu w-100 p-2 filter-dropdown-menu"
+                id="menu_filterInformBy"
+              ></ul>
+            </div>
+          </div>
+
+          <button
+            class="btn btn-outline-secondary btn-reset-filters w-100 mt-2"
+            onclick="resetFilters()"
+          >
+            Reset Filters
+          </button>
+        </div>
+      </aside>
+
+      <!-- ================= Main Area ================= -->
+      <div class="main-area">
+        <div class="topbar">
+          <div class="topbar-left">
+            <button
+              class="btn-toggle-sidebar"
+              onclick="toggleSidebar()"
+              title="เปิด/ปิด แผงตัวกรอง"
+            >
+              ☰
+            </button>
+            <h4>Incident & Concern Dashboard</h4>
+          </div>
+          <div class="topbar-actions">
+            <div class="btn-group btn-group-sm granularity-toggle" role="group">
+              <button
+                type="button"
+                class="btn btn-outline-secondary active"
+                id="btnGranMonth"
+                onclick="setGranularity('month')"
+              >
+                รายเดือน
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-secondary"
+                id="btnGranYear"
+                onclick="setGranularity('year')"
+              >
+                รายปี
+              </button>
+            </div>
+            <input
+              type="file"
+              id="fileInput"
+              class="form-control form-control-sm d-inline-block w-auto"
+              accept=".xlsx, .xls"
+            />
+            <button class="btn btn-sm btn-primary" onclick="importExcel()">
+              📥 Import
+            </button>
+            <button
+              class="btn btn-sm btn-outline-secondary"
+              onclick="exportExcel()"
+            >
+              📤 Export
+            </button>
+            <button
+              class="btn btn-sm btn-outline-warning"
+              onclick="openHadListModal()"
+            >
+              💊 รายชื่อยา HAD
+            </button>
+            <button class="btn btn-sm btn-outline-danger" onclick="clearData()">
+              🗑️ ล้างข้อมูล
+            </button>
+          </div>
+        </div>
+
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <button
+              class="nav-link active px-3 py-2"
+              data-bs-toggle="pill"
+              data-bs-target="#dashboard"
+              type="button"
+            >
+              Dashboard Overview
+            </button>
+          </li>
+          <li class="nav-item">
+            <button
+              class="nav-link px-3 py-2"
+              data-bs-toggle="pill"
+              data-bs-target="#table"
+              type="button"
+            >
+              Data Table
+            </button>
+          </li>
+          <li class="nav-item">
+            <button
+              class="nav-link px-3 py-2"
+              data-bs-toggle="pill"
+              data-bs-target="#form"
+              type="button"
+            >
+              Add New Data
+            </button>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="pills-tabContent">
+          <!-- ================= Tab 1: Dashboard ================= -->
+          <div class="tab-pane fade show active" id="dashboard" role="tabpanel">
+            <!-- KPI Cards -->
+            <div class="row g-3">
+              <div class="col-6 col-lg-3">
+                <div class="kpi-card">
+                  <div
+                    class="kpi-icon"
+                    style="background: var(--blue-soft); color: var(--blue)"
+                  >
+                    💊
+                  </div>
+                  <div class="kpi-label">Medication Errors</div>
+                  <div class="kpi-value-row">
+                    <div class="kpi-value" id="kpiTotal">0</div>
+                    <span class="kpi-badge" id="kpiTotalBadge"></span>
+                  </div>
+                  <div class="kpi-sub" id="kpiTotalSub">เหตุการณ์ทั้งหมด</div>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3">
+                <div class="kpi-card">
+                  <div
+                    class="kpi-icon"
+                    style="background: var(--red-soft); color: var(--red)"
+                  >
+                    ⚠️
+                  </div>
+                  <div class="kpi-label">Involved HAD / LASA</div>
+                  <div class="kpi-value-row">
+                    <div class="kpi-value" id="kpiHAD">0</div>
+                    <span class="kpi-badge" id="kpiHADBadge"></span>
+                  </div>
+                  <div class="kpi-sub" id="kpiHADSub">ยาความเสี่ยงสูง</div>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3">
+                <div class="kpi-card">
+                  <div
+                    class="kpi-icon"
+                    style="background: var(--purple-soft); color: var(--purple)"
+                  >
+                    📌
+                  </div>
+                  <div class="kpi-label">Concern Topic (พบมากที่สุด)</div>
+                  <div
+                    class="kpi-value"
+                    id="kpiTopConcern"
+                    style="font-size: 1.05rem"
+                  >
+                    -
+                  </div>
+                  <div class="kpi-sub" id="kpiTopConcernSub">ไม่มีข้อมูล</div>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3">
+                <div class="kpi-card">
+                  <div
+                    class="kpi-icon"
+                    style="background: var(--teal-soft); color: var(--teal)"
+                  >
+                    🧑‍⚕️
+                  </div>
+                  <div class="kpi-label">Inform By (รายงานมากที่สุด)</div>
+                  <div
+                    class="kpi-value"
+                    id="kpiTopReporter"
+                    style="font-size: 1.05rem"
+                  >
+                    -
+                  </div>
+                  <div class="kpi-sub" id="kpiTopReporterSub">ไม่มีข้อมูล</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-title">ภาพรวม (Overview)</div>
+            <div class="row g-3">
+              <div class="col-lg-6">
+                <div class="chart-card">
+                  <div class="chart-title">Incident Proportion by Level</div>
+                  <div
+                    style="
+                      position: relative;
+                      height: 200px;
+                      width: 100%;
+                      display: flex;
+                      justify-content: center;
+                    "
+                  >
+                    <canvas id="levelPieChart"></canvas>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="chart-card">
+                  <div class="chart-title">Incident Types (Sub Topic 1)</div>
+                  <div
+                    style="
+                      position: relative;
+                      height: 200px;
+                      width: 100%;
+                      display: flex;
+                      justify-content: center;
+                    "
+                  >
+                    <canvas id="subTopicPieChart"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-title">
+              วิเคราะห์เชิงลึก (Detailed Analysis)
+            </div>
+            <div class="row g-3">
+              <div class="col-lg-4">
+                <div class="chart-card">
+                  <div class="chart-title">Top 10 by Department</div>
+                  <div style="position: relative; height: 260px; width: 100%">
+                    <canvas id="deptChart"></canvas>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="chart-card">
+                  <div class="chart-title">Top 10 Types (Sub Topic 2)</div>
+                  <div style="position: relative; height: 260px; width: 100%">
+                    <canvas id="subTopic2Chart"></canvas>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="chart-card">
+                  <div class="chart-title">Top 10 Medications Involved</div>
+                  <div style="position: relative; height: 260px; width: 100%">
+                    <canvas id="medChart"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-title">
+              แนวโน้มรายเดือน (Monthly Trends & Details)
+            </div>
+            <div class="row g-3">
+              <div class="col-lg-6">
+                <div class="chart-card d-flex flex-column">
+                  <div class="chart-title">Incident Trend Stacked by Level</div>
+                  <div style="position: relative; height: 250px; width: 100%">
+                    <canvas id="monthStackedChart"></canvas>
+                  </div>
+                  <div class="table-responsive trend-table-wrapper flex-grow-1">
+                    <table
+                      class="table table-hover table-striped text-center trend-table mb-0"
+                      id="tableTrendLevel"
+                    ></table>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="chart-card d-flex flex-column">
+                  <div class="chart-title">
+                    Incident Trend Stacked by Sub Topic 1
+                  </div>
+                  <div style="position: relative; height: 250px; width: 100%">
+                    <canvas id="monthTopicStackedChart"></canvas>
+                  </div>
+                  <div class="table-responsive trend-table-wrapper flex-grow-1">
+                    <table
+                      class="table table-hover table-striped text-center trend-table mb-0"
+                      id="tableTrendTopic"
+                    ></table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ================= Tab 2: Data Table ================= -->
+          <div class="tab-pane fade" id="table" role="tabpanel">
+            <div class="chart-card">
+              <div class="d-flex justify-content-between mb-2">
+                <h6 class="fw-bold" id="tableRecordCount">
+                  รายการทั้งหมด: 0 รายการ
+                </h6>
+              </div>
+              <div class="table-responsive">
+                <table
+                  class="table table-bordered table-striped table-hover"
+                  id="dataTable"
+                  style="font-size: 0.83rem"
+                >
+                  <thead
+                    style="
+                      background: var(--text-dark);
+                      color: #fff;
+                      position: sticky;
+                      top: 0;
+                      z-index: 1;
+                    "
+                  >
+                    <tr>
+                      <th>จัดการ</th>
+                      <th>Year</th>
+                      <th>Month</th>
+                      <th>Date_Occ</th>
+                      <th>Department</th>
+                      <th>Level</th>
+                      <th>Sub Topic 1</th>
+                      <th>Sub Topic 2</th>
+                      <th>HAD/LASA</th>
+                      <th>Concern Topic</th>
+                      <th>Inform By</th>
+                      <th>Medications</th>
+                      <th>รายละเอียด</th>
+                    </tr>
+                  </thead>
+                  <tbody id="tableBody"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- ================= Tab 3: Add New Data ================= -->
+          <div class="tab-pane fade" id="form" role="tabpanel">
+            <div class="chart-card">
+              <form id="incidentForm">
+                <h6 class="fw-bold border-bottom pb-2 mb-3">
+                  แบบฟอร์มบันทึกข้อมูลใหม่ (Add New Record)
+                </h6>
+                <div class="row g-3">
+                  <div class="col-md-2">
+                    <label>Year</label
+                    ><input
+                      type="text"
+                      class="form-control form-control-sm"
+                      id="f_Year"
+                    />
+                  </div>
+                  <div class="col-md-2">
+                    <label>Month</label
+                    ><input
+                      type="text"
+                      class="form-control form-control-sm"
+                      id="f_Month"
+                    />
+                  </div>
+                  <div class="col-md-2">
+                    <label>Date_Occ</label
+                    ><input
+                      type="text"
+                      class="form-control form-control-sm"
+                      id="f_Date_Occ"
+                    />
+                  </div>
+                  <div class="col-md-3">
+                    <label>Department</label
+                    ><input
+                      type="text"
+                      class="form-control form-control-sm"
+                      id="f_Dept"
+                    />
+                  </div>
+                  <div class="col-md-3">
+                    <label>Level</label>
+                    <input
+                      type="text"
+                      class="form-control form-control-sm"
+                      id="f_Level"
+                      placeholder="เช่น 0,1,2,3,4,5 หรือ A-I"
+                    />
+                  </div>
+                  <div class="col-md-4">
+                    <label>Sub Topic 1</label
+                    ><input
+                      type="text"
+                      class="form-control form-control-sm"
+                      id="f_Sub1"
+                    />
+                  </div>
+                  <div class="col-md-4">
+                    <label>Sub Topic 2</label
+                    ><input
+                      type="text"
+                      class="form-control form-control-sm"
+                      id="f_Sub2"
+                    />
+                  </div>
+                  <div class="col-md-4">
+                    <label>HN</label
+                    ><input
+                      type="text"
+                      class="form-control form-control-sm"
+                      id="f_HN"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label>Concern Topic</label
+                    ><input
+                      type="text"
+                      class="form-control form-control-sm"
+                      id="f_ConcernTopic"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label>Inform By</label
+                    ><input
+                      type="text"
+                      class="form-control form-control-sm"
+                      id="f_InformBy"
+                    />
+                  </div>
+                  <div class="col-md-12">
+                    <label>รายละเอียด</label
+                    ><textarea
+                      class="form-control form-control-sm"
+                      id="f_Detail"
+                      rows="2"
+                    ></textarea>
+                  </div>
+                  <div class="col-md-4">
+                    <label>HAD / LASA</label
+                    ><input
+                      type="text"
+                      class="form-control form-control-sm"
+                      id="f_HAD"
+                    />
+                  </div>
+                  <div class="col-md-4">
+                    <label>Medication 1</label
+                    ><input
+                      type="text"
+                      class="form-control form-control-sm"
+                      id="f_Med1"
+                    />
+                  </div>
+                  <div class="col-md-4">
+                    <label>Medication 2</label
+                    ><input
+                      type="text"
+                      class="form-control form-control-sm"
+                      id="f_Med2"
+                    />
+                  </div>
+                </div>
+                <div class="mt-4 text-end">
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    onclick="addData()"
+                  >
+                    ➕ บันทึกข้อมูล
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ Modal: Edit Record ============ -->
+    <div class="modal fade" id="editModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div
+            class="modal-header"
+            style="background: var(--text-dark); color: #fff"
+          >
+            <h5 class="modal-title">✏️ แก้ไขข้อมูล (Edit Record)</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form id="editForm">
+              <div class="row g-3">
+                <div class="col-md-2">
+                  <label>Year</label
+                  ><input
+                    type="text"
+                    class="form-control form-control-sm"
+                    id="e_Year"
+                  />
+                </div>
+                <div class="col-md-2">
+                  <label>Month</label
+                  ><input
+                    type="text"
+                    class="form-control form-control-sm"
+                    id="e_Month"
+                  />
+                </div>
+                <div class="col-md-2">
+                  <label>Date_Occ</label
+                  ><input
+                    type="text"
+                    class="form-control form-control-sm"
+                    id="e_Date_Occ"
+                  />
+                </div>
+                <div class="col-md-3">
+                  <label>Department</label
+                  ><input
+                    type="text"
+                    class="form-control form-control-sm"
+                    id="e_Dept"
+                  />
+                </div>
+                <div class="col-md-3">
+                  <label>Level</label
+                  ><input
+                    type="text"
+                    class="form-control form-control-sm"
+                    id="e_Level"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label>Sub Topic 1</label
+                  ><input
+                    type="text"
+                    class="form-control form-control-sm"
+                    id="e_Sub1"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label>Sub Topic 2</label
+                  ><input
+                    type="text"
+                    class="form-control form-control-sm"
+                    id="e_Sub2"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label>HN</label
+                  ><input
+                    type="text"
+                    class="form-control form-control-sm"
+                    id="e_HN"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label>Concern Topic</label
+                  ><input
+                    type="text"
+                    class="form-control form-control-sm"
+                    id="e_ConcernTopic"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label>Inform By</label
+                  ><input
+                    type="text"
+                    class="form-control form-control-sm"
+                    id="e_InformBy"
+                  />
+                </div>
+                <div class="col-md-12">
+                  <label>รายละเอียด</label
+                  ><textarea
+                    class="form-control form-control-sm"
+                    id="e_Detail"
+                    rows="2"
+                  ></textarea>
+                </div>
+                <div class="col-md-4">
+                  <label>HAD / LASA</label
+                  ><input
+                    type="text"
+                    class="form-control form-control-sm"
+                    id="e_HAD"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label>Medication 1</label
+                  ><input
+                    type="text"
+                    class="form-control form-control-sm"
+                    id="e_Med1"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label>Medication 2</label
+                  ><input
+                    type="text"
+                    class="form-control form-control-sm"
+                    id="e_Med2"
+                  />
+                </div>
+                <div class="col-md-3">
+                  <label>Medication 3</label
+                  ><input
+                    type="text"
+                    class="form-control form-control-sm"
+                    id="e_Med3"
+                  />
+                </div>
+                <div class="col-md-3">
+                  <label>Medication 4</label
+                  ><input
+                    type="text"
+                    class="form-control form-control-sm"
+                    id="e_Med4"
+                  />
+                </div>
+                <div class="col-md-3">
+                  <label>Medication 5</label
+                  ><input
+                    type="text"
+                    class="form-control form-control-sm"
+                    id="e_Med5"
+                  />
+                </div>
+                <div class="col-md-3">
+                  <label>Medication 6</label
+                  ><input
+                    type="text"
+                    class="form-control form-control-sm"
+                    id="e_Med6"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              ยกเลิก
+            </button>
+            <button type="button" class="btn btn-success" onclick="saveEdit()">
+              💾 บันทึกการแก้ไข
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ Modal: HAD Drug List ============ -->
+    <div class="modal fade" id="hadListModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header" style="background: var(--red); color: #fff">
+            <h5 class="modal-title">
+              💊 จัดการรายชื่อยา HAD / High Alert Drug
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="small text-muted mb-2">
+              ระบบจะสแกนหาชื่อยาเหล่านี้ในคอลัมน์ "รายละเอียด" และ "Medication
+              1-6" เมื่อ import ข้อมูล ถ้าเจอและช่อง HAD/LASA ยังว่างอยู่
+              จะเติมชื่อยาให้อัตโนมัติ พร้อม badge "(ระบบตรวจพบ)" ในตาราง
+              ให้ตรวจทานอีกครั้งเสมอ
+            </p>
+            <div class="alert alert-warning py-2 small mb-3">
+              ⚠️ รายชื่อเริ่มต้น (สีเทา) เป็นรายชื่อยา HAD ที่พบทั่วไปเท่านั้น
+              <b>ไม่ใช่รายชื่อทางการของโรงพยาบาลนี้</b>
+              กรุณาให้ฝ่ายเภสัชกรรม/คุณภาพตรวจสอบและเพิ่ม-ลบให้ตรงกับ HAD list
+              จริงของ รพ.
+            </div>
+            <div class="input-group input-group-sm mb-3">
+              <input
+                type="text"
+                id="newHadDrugInput"
+                class="form-control"
+                placeholder="พิมพ์ชื่อยาที่ต้องการเพิ่ม เช่น Vincristine"
+              />
+              <button class="btn btn-success" onclick="addCustomHadDrug()">
+                ➕ เพิ่ม
+              </button>
+            </div>
+            <div>
+              <div class="fw-bold small mb-1">
+                รายชื่อยา HAD ที่ใช้ตรวจจับอยู่ตอนนี้ (<span id="hadListCount"
+                  >0</span
+                >
+                รายการ)
+              </div>
+              <div
+                id="hadListContainer"
+                style="
+                  max-height: 320px;
+                  overflow-y: auto;
+                  border: 1px solid #eee;
+                  border-radius: 8px;
+                  padding: 8px;
+                "
+              ></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              ปิด
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ Modal: Import Preview ============ -->
+    <div
+      class="modal fade"
+      id="importPreviewModal"
+      tabindex="-1"
+      aria-hidden="true"
+      data-bs-backdrop="static"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div
+            class="modal-header"
+            style="background: var(--text-dark); color: #fff"
+          >
+            <h5 class="modal-title">
+              🔍 ตรวจสอบข้อมูลก่อนนำเข้า (Import Preview)
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              onclick="cancelImportPreview()"
+            ></button>
+          </div>
+          <div class="modal-body d-flex flex-column">
+            <div class="alert alert-info py-2 small mb-2">
+              แถวพื้นหลังสีเหลืองอ่อน =
+              <b>ID (Occurrence No.) ซ้ำ</b> กับแถวอื่น ซึ่งมักหมายถึง
+              <b>1 เหตุการณ์ถูก assign ให้หลายแผนกรับผิดชอบ</b> —
+              ระบบจะ<b>ไม่นับซ้ำ</b>ในตัวเลขภาพรวม/KPI/กราฟ Level/Sub Topic
+              ให้อัตโนมัติอยู่แล้ว แต่จะนับแยกในกราฟ "Top 10 by Department"
+              ตามจริง ค่าเริ่มต้นจึงติ๊กนำเข้าไว้ให้ทุกแถว —
+              ถ้าตรวจแล้วเห็นว่าเป็นข้อมูลซ้ำจริง ๆ ไม่ใช่แค่ multi-department
+              ค่อยติ๊กออกเอง<br />
+              ช่อง HAD/LASA พื้นหลังสีเหลืองเข้ม = ระบบ<b
+                >ตรวจพบ HAD อัตโนมัติ</b
+              >
+              แก้ไขค่าได้ก่อนกดยืนยัน
+            </div>
+            <div
+              class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-2"
+            >
+              <div id="importSummaryText" class="small"></div>
+              <div class="btn-group btn-group-sm">
+                <button
+                  class="btn btn-outline-secondary import-filter-btn"
+                  id="importFilterBtn_all"
+                  onclick="setImportFilterMode('all')"
+                >
+                  ทั้งหมด
+                </button>
+                <button
+                  class="btn btn-outline-secondary import-filter-btn"
+                  id="importFilterBtn_dup"
+                  onclick="setImportFilterMode('dup')"
+                >
+                  เฉพาะแถวซ้ำ
+                </button>
+                <button
+                  class="btn btn-outline-secondary import-filter-btn"
+                  id="importFilterBtn_had"
+                  onclick="setImportFilterMode('had')"
+                >
+                  เฉพาะ HAD ที่ตรวจพบ
+                </button>
+              </div>
+            </div>
+            <div class="table-responsive flex-grow-1" style="overflow-y: auto">
+              <table
+                class="table table-bordered table-hover import-preview-table mb-0"
+              >
+                <thead>
+                  <tr>
+                    <th>
+                      <input
+                        type="checkbox"
+                        class="form-check-input"
+                        onchange="toggleSelectAllImportVisible(this.checked)"
+                        title="เลือก/ยกเลิกทั้งหมดที่แสดงอยู่"
+                      />
+                    </th>
+                    <th>สถานะ</th>
+                    <th>ID (Occurrence No.)</th>
+                    <th>Year</th>
+                    <th>Month</th>
+                    <th>Date_Occ</th>
+                    <th>Department</th>
+                    <th>Level</th>
+                    <th>Sub Topic 1</th>
+                    <th>Concern Topic</th>
+                    <th>Inform By</th>
+                    <th>HAD / LASA</th>
+                    <th>รายละเอียด</th>
+                  </tr>
+                </thead>
+                <tbody id="importPreviewBody"></tbody>
+              </table>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+              onclick="cancelImportPreview()"
+            >
+              ✖ ยกเลิกการนำเข้า
+            </button>
+            <button
+              type="button"
+              class="btn btn-success"
+              id="importConfirmBtn"
+              onclick="confirmImportRows()"
+            >
+              ✅ ยืนยันนำเข้า
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      Chart.register(ChartDataLabels);
+
+      // Plugin วาดตัวเลขรวมตรงกลาง donut chart (ใช้เฉพาะ chart ที่เปิด options.plugins.centerText.display = true)
+      const centerTextPlugin = {
+        id: "centerText",
+        beforeDraw(chart) {
+          const opt = chart.options.plugins && chart.options.plugins.centerText;
+          if (!opt || !opt.display) return;
+          const { ctx, chartArea } = chart;
+          if (!chartArea) return;
+          const total = chart.data.datasets[0].data.reduce((a, b) => a + b, 0);
+          const centerX = (chartArea.left + chartArea.right) / 2;
+          const centerY = (chartArea.top + chartArea.bottom) / 2;
+          ctx.save();
+          ctx.font = "800 24px Inter, sans-serif";
+          ctx.fillStyle = "#1f2430";
+          ctx.textAlign = "center";
+          ctx.textBaseline = "middle";
+          ctx.fillText(total, centerX, centerY - 8);
+          ctx.font = "600 11px Inter, sans-serif";
+          ctx.fillStyle = "#8b90a0";
+          ctx.fillText("รวม", centerX, centerY + 14);
+          ctx.restore();
+        },
+      };
+      Chart.register(centerTextPlugin);
+
+      // ==========================================================================
+      // Constants & lookup tables
+      // ==========================================================================
+      const flatColors = [
+        "#4f7cff",
+        "#ff6b6b",
+        "#ffb84f",
+        "#12b8a6",
+        "#9b6bff",
+        "#f45b9c",
+        "#33b1ff",
+        "#84cc16",
+        "#f97316",
+        "#795548",
+      ];
+
+      // สีเฉพาะของแต่ละหมวด Sub Topic 1 (12 หมวด Medication Error) - ใช้กับการ์ด Incident Types โดยเฉพาะ
+      const TOPIC_COLORS = {
+        "Prescribing error OPD": "#4f7cff",
+        "Prescribing error IPD": "#ff6b6b",
+        "Transcribing error OPD": "#ffcd3c",
+        "Transcribing error IPD": "#22c55e",
+        "Pre-dispensing error OPD": "#ffb84f",
+        "Pre-dispensing error IPD": "#9b6bff",
+        "Dispensing error OPD": "#12b8a6",
+        "Dispensing error IPD": "#f45b9c",
+        "Pre-administration error OPD": "#0ea5e9",
+        "Pre-administration error IPD": "#a16207",
+        "Administration error OPD": "#1e3a8a",
+        "Administration error IPD": "#84cc16",
+      };
+
+      // สีเฉพาะของแต่ละ Level ตัวอักษร (ใช้กับการ์ด Incident Proportion by Level - แสดงเฉพาะ A-I)
+      const levelColors = {
+        A: "#4f7cff",
+        B: "#ff6b6b",
+        C: "#ffcd3c",
+        D: "#22c55e",
+        E: "#ffb84f",
+        F: "#9b6bff",
+        G: "#12b8a6",
+        H: "#f45b9c",
+        I: "#0ea5e9",
+      };
+
+      const LEVEL_SCORE_GROUPS = [
+        { score: 0, label: "0 (A,B)", letters: ["A", "B", "0"] },
+        { score: 1, label: "1 (C)", letters: ["C", "1"] },
+        { score: 2, label: "2 (D)", letters: ["D", "2"] },
+        { score: 3, label: "3 (E)", letters: ["E", "3"] },
+        { score: 4, label: "4 (F)", letters: ["F", "4"] },
+        {
+          score: 5,
+          label: "5 (G,H,I,SE)",
+          letters: ["G", "H", "I", "SE", "5"],
+        },
+      ];
+      const scoreColors = {
+        0: "#34A853",
+        1: "#4f7cff",
+        2: "#ffb84f",
+        3: "#ff9800",
+        4: "#ff6b6b",
+        5: "#9b6bff",
+        "N/A": "#c8cbd6",
+      };
+      function mapLevelToScore(lvl) {
+        const l = String(lvl || "")
+          .trim()
+          .toUpperCase();
+        const group = LEVEL_SCORE_GROUPS.find((g) => g.letters.includes(l));
+        return group ? group.score : null;
+      }
+
+      const monthOrder = [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
+        "ม.ค.",
+        "ก.พ.",
+        "มี.ค.",
+        "เม.ย.",
+        "พ.ค.",
+        "มิ.ย.",
+        "ก.ค.",
+        "ส.ค.",
+        "ก.ย.",
+        "ต.ค.",
+        "พ.ย.",
+        "ธ.ค.",
+      ];
+
+      // ลำดับหมวดหมู่ Sub Topic 1 ที่เกี่ยวกับ Medication Error (ใช้จัดเรียง + ระบุว่าเป็น Medication Error)
+      const predefinedSubTopic1 = [
+        "Prescribing error OPD",
+        "Prescribing error IPD",
+        "Transcribing error OPD",
+        "Transcribing error IPD",
+        "Pre-dispensing error OPD",
+        "Pre-dispensing error IPD",
+        "Dispensing error OPD",
+        "Dispensing error IPD",
+        "Pre-administration error OPD",
+        "Pre-administration error IPD",
+        "Administration error OPD",
+        "Administration error IPD",
+      ];
+
+      function standardizeTopic(t) {
+        if (!t || String(t).trim() === "") return "N/A";
+        let str = String(t).trim().replace(/\s+/g, " ");
+        // แก้ typo ที่พบในไฟล์ต้นฉบับ: "Adminstration" (สะกดขาดตัว i) ให้ตรงกับ "Administration" ที่ถูกต้อง
+        str = str.replace(/adminstration/gi, "Administration");
+        let match = predefinedSubTopic1.find(
+          (pt) => pt.toLowerCase() === str.toLowerCase(),
+        );
+        return match ? match : str;
+      }
+
+      function generateId() {
+        return Date.now().toString(36) + Math.random().toString(36).substr(2);
+      }
+      function cleanMonth(m) {
+        if (!m) return "N/A";
+        if (m instanceof Date) {
+          const mn = [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec",
+          ];
+          return mn[m.getMonth()];
+        }
+        return String(m).trim();
+      }
+      function cleanYear(y) {
+        if (!y) return null;
+        if (y instanceof Date) return String(y.getFullYear());
+        return String(y).trim();
+      }
+
+      // ==========================================================================
+      // HAD (High Alert Drug) Detection
+      // ⚠️ รายชื่อเริ่มต้นเป็นยา HAD ที่พบทั่วไป ไม่ใช่รายชื่อทางการของโรงพยาบาลนี้
+      // เพิ่ม/ลบผ่านปุ่ม "รายชื่อยา HAD" บนหน้าเว็บได้เลย
+      // ==========================================================================
+      const BASELINE_HAD_DRUGS = [
+        { name: "Insulin", aliases: ["insulin", "อินซูลิน"] },
+        { name: "Heparin", aliases: ["heparin", "เฮพาริน"] },
+        {
+          name: "Enoxaparin (LMWH)",
+          aliases: ["enoxaparin", "clexane", "lmwh"],
+        },
+        { name: "Warfarin", aliases: ["warfarin", "วาร์ฟาริน"] },
+        {
+          name: "Potassium Chloride (KCl)",
+          aliases: ["kcl", "potassium chloride", "โพแทสเซียมคลอไรด์"],
+        },
+        { name: "Potassium Phosphate", aliases: ["potassium phosphate"] },
+        {
+          name: "Concentrated NaCl",
+          aliases: ["nacl 3%", "hypertonic saline", "sodium chloride 3%"],
+        },
+        { name: "Digoxin", aliases: ["digoxin", "ดิจอกซิน"] },
+        { name: "Morphine", aliases: ["morphine", "มอร์ฟีน"] },
+        { name: "Fentanyl", aliases: ["fentanyl", "เฟนทานิล"] },
+        { name: "Pethidine", aliases: ["pethidine", "meperidine"] },
+        { name: "Midazolam", aliases: ["midazolam", "มิดาโซแลม"] },
+        {
+          name: "Adrenaline/Epinephrine",
+          aliases: ["adrenaline", "epinephrine", "อะดรีนาลีน"],
+        },
+        {
+          name: "Norepinephrine",
+          aliases: ["norepinephrine", "noradrenaline", "levophed"],
+        },
+        { name: "Vecuronium", aliases: ["vecuronium"] },
+        { name: "Rocuronium", aliases: ["rocuronium"] },
+        {
+          name: "Succinylcholine",
+          aliases: ["succinylcholine", "suxamethonium"],
+        },
+        { name: "Methotrexate", aliases: ["methotrexate", "mtx"] },
+        { name: "Vincristine", aliases: ["vincristine"] },
+        { name: "Cisplatin", aliases: ["cisplatin"] },
+        { name: "Doxorubicin", aliases: ["doxorubicin"] },
+        { name: "Magnesium Sulfate", aliases: ["magnesium sulfate", "mgso4"] },
+        {
+          name: "Dextrose 50% (D50W)",
+          aliases: ["dextrose 50%", "d50w", "d50"],
+        },
+        { name: "Amiodarone", aliases: ["amiodarone"] },
+        { name: "Sodium Nitroprusside", aliases: ["nitroprusside"] },
+        { name: "Oxytocin", aliases: ["oxytocin", "ออกซิโทซิน"] },
+      ];
+      function getCustomHadDrugs() {
+        try {
+          return JSON.parse(localStorage.getItem("customHadDrugs") || "[]");
+        } catch (e) {
+          return [];
+        }
+      }
+      function saveCustomHadDrugs(list) {
+        localStorage.setItem("customHadDrugs", JSON.stringify(list));
+      }
+      function getAllHadDrugs() {
+        const custom = getCustomHadDrugs().map((name) => ({
+          name,
+          aliases: [name.toLowerCase()],
+          custom: true,
+        }));
+        return [...BASELINE_HAD_DRUGS, ...custom];
+      }
+      function detectHAD(row) {
+        const haystack = [
+          row["รายละเอียด"] || "",
+          row["Medication 1"] || "",
+          row["Medication 2"] || "",
+          row["Medication 3"] || "",
+          row["Medication 4"] || "",
+          row["Medication 5"] || "",
+          row["Medication 6"] || "",
+        ]
+          .join(" ")
+          .toLowerCase();
+        if (!haystack.trim()) return [];
+        const found = [];
+        getAllHadDrugs().forEach((drug) => {
+          if (drug.aliases.some((a) => haystack.includes(a.toLowerCase())))
+            found.push(drug.name);
+        });
+        return [...new Set(found)];
+      }
+      function applyHadDetection(row) {
+        const existing = row["HAD / LASA"];
+        const isEmpty =
+          !existing ||
+          String(existing).trim() === "" ||
+          String(existing).trim() === "-";
+        if (!isEmpty) return row;
+        const detected = detectHAD(row);
+        if (detected.length > 0) {
+          row["HAD / LASA"] = detected.join(", ");
+          row["_hadAuto"] = true;
+        }
+        return row;
+      }
+      function openHadListModal() {
+        renderHadListModal();
+        new bootstrap.Modal(document.getElementById("hadListModal")).show();
+      }
+      function renderHadListModal() {
+        const container = document.getElementById("hadListContainer");
+        const custom = getCustomHadDrugs();
+        document.getElementById("hadListCount").innerText =
+          getAllHadDrugs().length;
+        let html = "";
+        BASELINE_HAD_DRUGS.forEach((d) => {
+          html += `<span class="badge bg-secondary me-1 mb-1" title="รายชื่อเริ่มต้น (baseline)">${d.name}</span>`;
+        });
+        custom.forEach((name) => {
+          html += `<span class="badge bg-danger me-1 mb-1">${name} <span style="cursor:pointer" onclick="removeCustomHadDrug('${name.replace(/'/g, "\\'")}')">&times;</span></span>`;
+        });
+        container.innerHTML =
+          html || '<span class="text-muted small">ยังไม่มีรายชื่อ</span>';
+      }
+      function addCustomHadDrug() {
+        const input = document.getElementById("newHadDrugInput");
+        const val = input.value.trim();
+        if (!val) return;
+        const custom = getCustomHadDrugs();
+        if (!custom.some((c) => c.toLowerCase() === val.toLowerCase())) {
+          custom.push(val);
+          saveCustomHadDrugs(custom);
+        }
+        input.value = "";
+        renderHadListModal();
+      }
+      function removeCustomHadDrug(name) {
+        saveCustomHadDrugs(getCustomHadDrugs().filter((c) => c !== name));
+        renderHadListModal();
+      }
+
+      // ==========================================================================
+      // Import mapping: แปลงไฟล์ Excel ดิบจากระบบโรงพยาบาล (Department Concern Report)
+      // ให้เป็น schema เดียวกับที่แดชบอร์ดนี้ใช้ (เหมือนไฟล์ occ_2026_formatted เดิม)
+      // รองรับทั้งไฟล์ดิบ (Occurrence No., Inform_By, ...) และไฟล์ที่ map ไว้แล้ว
+      // ==========================================================================
+      function readExcelRows(workbook) {
+        const sheet = workbook.Sheets[workbook.SheetNames[0]];
+        // หาแถวที่เป็น header จริง (บางไฟล์มีแถวชื่อรายงานคั่นอยู่แถวบนสุดก่อนถึง header)
+        const aoa = XLSX.utils.sheet_to_json(sheet, {
+          header: 1,
+          raw: false,
+          blankrows: false,
+        });
+        let headerRowIndex = 0;
+        for (let i = 0; i < Math.min(aoa.length, 5); i++) {
+          const row = (aoa[i] || []).map((c) => String(c || "").trim());
+          if (
+            row.includes("Occurrence No.") ||
+            row.includes("Date_Occ") ||
+            row.includes("HN")
+          ) {
+            headerRowIndex = i;
+            break;
+          }
+        }
+        const rows = XLSX.utils.sheet_to_json(sheet, {
+          raw: false,
+          range: headerRowIndex,
+        });
+        // บางไฟล์ export หัวคอลัมน์มีช่องว่างเกินติดมาด้วย (เช่น " Level", " Sub Topic 1")
+        // trim หัวคอลัมน์ทุกแถวตรงนี้ทีเดียว กัน column lookup พลาดเพราะช่องว่างที่มองไม่เห็น
+        return rows.map((row) => {
+          const clean = {};
+          Object.keys(row).forEach((k) => {
+            clean[k.trim()] = row[k];
+          });
+          return clean;
+        });
+      }
+      // ตรวจว่าไฟล์ที่ import เข้ามาเป็นรูปแบบไหน จากคอลัมน์ที่มีอยู่ (หลัง trim หัวคอลัมน์แล้ว)
+      //   - 'department_concern_report': ไฟล์ดิบจากระบบ Department Concern Report (Sub_Topic1 มีขีดล่าง, มี Inform_By ฯลฯ)
+      //   - 'pbi_occurrence'           : ไฟล์ดิบแบบ Occurrence PBI export (Sub Topic 1 มีช่องว่าง(หลัง trim แล้ว), มี Occurrence No.)
+      //   - 'already_mapped'          : ไฟล์ที่ map เป็น format แดชบอร์ดนี้ไว้แล้ว (เช่นไฟล์ export จากแอปนี้เอง)
+      function detectImportFormat(headers) {
+        if (
+          headers.includes("Sub_Topic1") ||
+          headers.includes("Inform_By") ||
+          headers.includes("Final Severity Outcome Level")
+        )
+          return "department_concern_report";
+        if (
+          headers.includes("Occurrence No.") &&
+          headers.includes("Sub Topic 1")
+        )
+          return "pbi_occurrence";
+        return "already_mapped";
+      }
+      function extractLevelToken(text) {
+        if (!text) return "";
+        const m = String(text).match(/level\s*([0-9]+|se)\b/i);
+        return m ? m[1].toUpperCase() : "";
+      }
+      function parseDateToMonthYear(dateStr) {
+        const monthNames = [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec",
+        ];
+        if (!dateStr) return { month: "", year: "" };
+        const parts = String(dateStr).trim().split(/[-\/]/);
+        if (parts.length < 3) return { month: "", year: "" };
+        const mon = parseInt(parts[1], 10);
+        return {
+          month: monthNames[mon - 1] || "",
+          year: String(parts[2]).trim(),
+        };
+      }
+      // ⚠️ จุดที่ "สมมติ" การ map คอลัมน์ - ปรับได้ตรงนี้จุดเดียวถ้าความหมายจริงต่างจากนี้
+      //   - หน่วยงานที่ต้องแก้ไข-1  <- Dept_concern (แผนกที่ต้องดำเนินการแก้ไข) ถ้าไม่มีใช้ Reported Dept_Des แทน
+      //   - Sub Topic 1 / 2         <- Sub_Topic1 / Sub_Topic2 (ค่าละเอียด ไม่ใช่ "(Main)")
+      //   - Level                   <- ดึงตัวเลข/SE จากข้อความใน Final Severity Outcome Level
+      function mapRawHospitalRow(row) {
+        const lvl = extractLevelToken(
+          row["Final Severity Outcome Level"] || row["Severity Outcome Level"],
+        );
+        const { month, year } = parseDateToMonthYear(row["Date_Occ"]);
+        // ⚠️ ในไฟล์ดิบ Sub_Topic1 ไม่มีคำว่า OPD/IPD ต่อท้าย (เช่น "Prescribing error" เฉย ๆ)
+        // ต้องต่อกับคอลัมน์ OPD_IPD เองถึงจะได้ค่าแบบ "Prescribing error OPD" ตรงกับ 12 หมวดที่ระบบใช้กรอง/แสดงผล
+        const subTopic1Combined = [row["Sub_Topic1"], row["OPD_IPD"]]
+          .filter((v) => v && String(v).trim() !== "")
+          .join(" ")
+          .trim();
+        return {
+          Date_Occ: row["Date_Occ"] || "",
+          month,
+          year,
+          "หน่วยงานที่ต้องแก้ไข-1":
+            row["Dept_concern"] || row["Reported Dept_Des"] || "",
+          Level: lvl,
+          "Sub Topic 1": subTopic1Combined,
+          "Sub Topic 2": row["Sub_Topic2"] || "",
+          HN: row["HN"] || "",
+          รายละเอียด: row["Detail"] || "",
+          "HAD / LASA": "", // ยังไม่มีคอลัมน์นี้ในไฟล์ดิบ - ให้ระบบตรวจจับอัตโนมัติจากรายละเอียด
+          inform_by: row["Inform_By"] || "",
+          concern_topic:
+            row["Concern_Topic"] || row["Concern_Topic (Main)"] || "",
+          _occNo: row["Occurrence No."] || "",
+        };
+      }
+
+      // ⚠️ จุดที่ "สมมติ" การ map คอลัมน์สำหรับไฟล์รูปแบบ Occurrence PBI export
+      //   - Level อยู่ในคอลัมน์ "Level" โดยตรงอยู่แล้ว (เป็นตัวอักษร A-I) ไม่ต้องแกะจากข้อความยาว
+      //   - Sub Topic 1 มีคำว่า OPD/IPD ต่อท้ายอยู่แล้วในตัวเอง ไม่ต้องต่อคอลัมน์อื่นเพิ่ม
+      //   - ไม่มีคอลัมน์ชื่อผู้รายงานเป็นรายบุคคล (Inform By) ในไฟล์รูปแบบนี้ - จะเว้นว่างไว้
+      //   - concern_topic ใช้คอลัมน์ "Topic" แทน (เทียบเท่า Concern_Topic ของอีกไฟล์รูปแบบหนึ่ง)
+      function mapPbiOccurrenceRow(row) {
+        const { month, year } = parseDateToMonthYear(row["Date_Occ"]);
+        return {
+          Date_Occ: row["Date_Occ"] || "",
+          month,
+          year,
+          "หน่วยงานที่ต้องแก้ไข-1": row["หน่วยงานที่ต้องแก้ไข-1"] || "",
+          Level: row["Level"] || "",
+          "Sub Topic 1": row["Sub Topic 1"] || "",
+          "Sub Topic 2": row["Sub Topic 2"] || "",
+          HN: row["HN"] || "",
+          รายละเอียด: row["รายละเอียด"] || "",
+          "HAD / LASA": "", // ไม่มีคอลัมน์นี้ในไฟล์ดิบ - ให้ระบบตรวจจับอัตโนมัติจากรายละเอียด
+          inform_by: "",
+          concern_topic: row["Topic"] || "",
+          _occNo: row["Occurrence No."] || "",
+        };
+      }
+
+      // ==========================================================================
+      // Global state
+      // ==========================================================================
+      let globalData = [];
+      let filteredData = [];
+      let currentEditId = null;
+      let trendGranularity = "month";
+      let chartLevelPie,
+        chartSubTopicPie,
+        chartSubTopic2,
+        chartDept,
+        chartMed,
+        chartMonthStacked,
+        chartMonthTopicStacked;
+
+      // --- LocalStorage ---
+      function saveToLocalStorage() {
+        localStorage.setItem("medErrorData", JSON.stringify(globalData));
+      }
+      function loadFromLocalStorage() {
+        const stored = localStorage.getItem("medErrorData");
+        if (stored) {
+          try {
+            globalData = JSON.parse(stored);
+            populateFilterDropdowns();
+            applyFilters();
+          } catch (e) {
+            console.error(e);
+          }
+        }
+      }
+      window.addEventListener("load", loadFromLocalStorage);
+
+      function toggleSidebar() {
+        document.getElementById("sidebar").classList.toggle("collapsed");
+      }
+      function setGranularity(g) {
+        trendGranularity = g;
+        document
+          .getElementById("btnGranMonth")
+          .classList.toggle("active", g === "month");
+        document
+          .getElementById("btnGranYear")
+          .classList.toggle("active", g === "year");
+        renderKpiCards();
+      }
+
+      function showImportLoading(show) {
+        const overlay = document.getElementById("importLoadingOverlay");
+        if (overlay) overlay.style.display = show ? "flex" : "none";
+      }
+
+      // ==========================================================================
+      // Import Preview: แสดง modal ให้ตรวจสอบก่อนนำเข้าจริง
+      // - highlight แถวซ้ำ (ให้เลือกได้ว่าจะข้ามหรือนำเข้า)
+      // - highlight + ให้แก้ไขค่า HAD/LASA ที่ระบบตรวจพบอัตโนมัติได้ก่อนยืนยัน
+      // ==========================================================================
+      let pendingImportRows = [];
+      let importPreviewFilter = "all"; // all | dup | had
+      let importExcludedByTopicCount = 0; // จำนวนแถวที่คัดออกตั้งแต่ต้นเพราะ Sub Topic 1 ไม่ตรง 12 หมวดที่กำหนด
+
+      function getFilteredPendingRows() {
+        if (importPreviewFilter === "dup")
+          return pendingImportRows.filter((r) => r._isDup);
+        if (importPreviewFilter === "had")
+          return pendingImportRows.filter((r) => r._hadAuto);
+        return pendingImportRows;
+      }
+      function updateImportSummary() {
+        const total = pendingImportRows.length;
+        const dupCount = pendingImportRows.filter((r) => r._isDup).length;
+        const hadCount = pendingImportRows.filter((r) => r._hadAuto).length;
+        const willImportCount = pendingImportRows.filter(
+          (r) => r._willImport,
+        ).length;
+        document.getElementById("importSummaryText").innerHTML =
+          `ทั้งหมด <b>${total}</b> แถว &nbsp;|&nbsp; ตรวจพบ ID ซ้ำ <b class="text-warning">${dupCount}</b> แถว &nbsp;|&nbsp; ตรวจพบ HAD อัตโนมัติ <b class="text-danger">${hadCount}</b> แถว` +
+          (importExcludedByTopicCount > 0
+            ? ` &nbsp;|&nbsp; คัดออกไปแล้ว <b class="text-muted">${importExcludedByTopicCount}</b> แถว (Sub Topic ไม่ตรง 12 หมวดที่กำหนด)`
+            : "");
+        document.getElementById("importConfirmBtn").innerText =
+          `✅ ยืนยันนำเข้า (${willImportCount} แถว)`;
+      }
+      function renderImportRowHtml(row) {
+        const dupCell = row._isDup
+          ? '<span class="badge bg-warning text-dark">ID ซ้ำ</span>'
+          : '<span class="badge bg-success">ใหม่</span>';
+        const hadVal = (row["HAD / LASA"] || "")
+          .toString()
+          .replace(/"/g, "&quot;");
+        const detailVal = (row["รายละเอียด"] || "").toString();
+        const detailEsc = detailVal.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+        const occNo = row._occNo ? String(row._occNo) : "-";
+        return `<tr data-temp-id="${row._tempId}" class="${row._isDup ? "import-row-dup" : ""}">
+        <td class="text-center"><input type="checkbox" class="form-check-input" ${row._willImport ? "checked" : ""} onchange="toggleImportRow('${row._tempId}', this.checked)"></td>
+        <td>${dupCell}</td>
+        <td><small class="fw-bold">${occNo}</small></td>
+        <td>${row.year || ""}</td><td>${row.month || ""}</td><td><small>${row.Date_Occ || ""}</small></td>
+        <td><small>${row["หน่วยงานที่ต้องแก้ไข-1"] || ""}</small></td>
+        <td>${row.Level || ""}</td>
+        <td><small>${row["Sub Topic 1"] || ""}</small></td>
+        <td><small>${row["concern_topic"] || ""}</small></td>
+        <td><small>${row["inform_by"] || ""}</small></td>
+        <td style="min-width:190px;${row._hadAuto ? "background:#fff8e1;" : ""}">
+            <input type="text" class="form-control form-control-sm" value="${hadVal}" onchange="updateImportHad('${row._tempId}', this.value)">
+            ${row._hadAuto ? '<span class="badge bg-warning text-dark mt-1">🔍 ระบบตรวจพบ</span>' : ""}
+        </td>
+        <td class="import-detail-cell" onclick="toggleDetailExpand(this)" title="คลิกเพื่อดู/ย่อข้อความเต็ม">
+            <div class="detail-text">${detailEsc}</div>
+        </td>
+    </tr>`;
+      }
+      function toggleDetailExpand(td) {
+        const div = td.querySelector(".detail-text");
+        if (div) div.classList.toggle("expanded");
+      }
+      function renderImportPreviewTable() {
+        const tbody = document.getElementById("importPreviewBody");
+        const rows = getFilteredPendingRows();
+        tbody.innerHTML =
+          rows.length > 0
+            ? rows.map(renderImportRowHtml).join("")
+            : '<tr><td colspan="13" class="text-center text-muted p-3">ไม่มีแถวที่ตรงเงื่อนไข</td></tr>';
+        updateImportSummary();
+      }
+      function setImportFilterMode(mode) {
+        importPreviewFilter = mode;
+        document
+          .querySelectorAll(".import-filter-btn")
+          .forEach((b) => b.classList.remove("active"));
+        document
+          .getElementById("importFilterBtn_" + mode)
+          .classList.add("active");
+        renderImportPreviewTable();
+      }
+      function toggleImportRow(tempId, checked) {
+        const row = pendingImportRows.find((r) => r._tempId === tempId);
+        if (row) {
+          row._willImport = checked;
+          updateImportSummary();
+        }
+      }
+      function updateImportHad(tempId, value) {
+        const row = pendingImportRows.find((r) => r._tempId === tempId);
+        if (row) {
+          row["HAD / LASA"] = value;
+          row._hadAuto = false;
+          renderImportPreviewTable();
+        }
+      }
+      function toggleSelectAllImportVisible(checked) {
+        getFilteredPendingRows().forEach((r) => (r._willImport = checked));
+        renderImportPreviewTable();
+      }
+      function openImportPreviewModal() {
+        importPreviewFilter = "all";
+        renderImportPreviewTable();
+        document.getElementById("importFilterBtn_all").classList.add("active");
+        new bootstrap.Modal(
+          document.getElementById("importPreviewModal"),
+        ).show();
+      }
+      function confirmImportRows() {
+        const toImport = pendingImportRows.filter((r) => r._willImport);
+        if (toImport.length === 0) {
+          alert("ยังไม่ได้เลือกแถวที่จะนำเข้าเลย");
+          return;
+        }
+        const totalConsidered = pendingImportRows.length;
+        const finalRows = toImport.map((r) => {
+          const { _tempId, _isDup, _willImport, _occNo, ...clean } = r;
+          return { ...clean, _id: generateId() };
+        });
+        globalData = [...globalData, ...finalRows];
+        saveToLocalStorage();
+        populateFilterDropdowns();
+        applyFilters();
+        bootstrap.Modal.getInstance(
+          document.getElementById("importPreviewModal"),
+        ).hide();
+        document.getElementById("fileInput").value = "";
+        pendingImportRows = [];
+        alert(
+          `นำเข้าข้อมูลสำเร็จ ${finalRows.length} แถว (ข้าม ${totalConsidered - finalRows.length} แถวที่ไม่ได้เลือก)`,
+        );
+      }
+      function cancelImportPreview() {
+        pendingImportRows = [];
+        document.getElementById("fileInput").value = "";
+      }
+
+      // --- Import / Export / Clear ---
+      function importExcel() {
+        const fileUpload = document.getElementById("fileInput");
+        if (fileUpload.files.length === 0) return alert("กรุณาเลือกไฟล์ก่อน");
+        const file = fileUpload.files[0];
+
+        showImportLoading(true);
+        // หน่วงเล็กน้อยให้เบราว์เซอร์วาด overlay ก่อนเริ่มประมวลผลไฟล์ (ซึ่งเป็นงานหนักแบบ synchronous)
+        setTimeout(() => {
+          const reader = new FileReader();
+          reader.onerror = function () {
+            showImportLoading(false);
+            alert("อ่านไฟล์ไม่สำเร็จ");
+          };
+          reader.onload = function (e) {
+            try {
+              const data = new Uint8Array(e.target.result);
+              const workbook = XLSX.read(data, { type: "array" });
+              let excelRows;
+              try {
+                excelRows = readExcelRows(workbook);
+              } catch (err) {
+                alert("อ่านไฟล์ไม่สำเร็จ: " + err.message);
+                return;
+              }
+              if (!excelRows || excelRows.length === 0) {
+                alert("ไม่พบข้อมูลในไฟล์");
+                return;
+              }
+
+              const headers = Object.keys(excelRows[0]);
+              const importFormat = detectImportFormat(headers);
+              let mappedRows;
+              if (importFormat === "department_concern_report")
+                mappedRows = excelRows.map(mapRawHospitalRow);
+              else if (importFormat === "pbi_occurrence")
+                mappedRows = excelRows.map(mapPbiOccurrenceRow);
+              else mappedRows = excelRows;
+
+              // นำเข้าเฉพาะ Sub Topic 1 ที่อยู่ใน 12 หมวด Medication Error ที่กำหนดไว้เท่านั้น
+              // (Administration / Prescribing / Transcribing / Dispensing / Pre-dispensing / Pre-administration error, ทั้ง OPD และ IPD)
+              // แถวอื่นที่ไม่เกี่ยวกับยา (เช่น Patient registration, Security, Accident) จะถูกคัดออกตั้งแต่ตอน import เลย ไม่ต้องมาเห็นใน preview
+              const totalBeforeTopicFilter = mappedRows.length;
+              mappedRows = mappedRows.filter((r) =>
+                predefinedSubTopic1.includes(
+                  standardizeTopic(r["Sub Topic 1"]),
+                ),
+              );
+              importExcludedByTopicCount =
+                totalBeforeTopicFilter - mappedRows.length;
+
+              if (mappedRows.length === 0) {
+                alert(
+                  `ไม่พบแถวที่มี Sub Topic 1 อยู่ใน 12 หมวด Medication Error ที่กำหนดไว้เลย (จากทั้งหมด ${totalBeforeTopicFilter} แถวในไฟล์)`,
+                );
+                return;
+              }
+
+              // ทำเครื่องหมายแถวซ้ำ (Occurrence No. + Sub Topic 1 เหมือนกันทุกอย่าง) ไว้ให้ตรวจสอบใน modal - ยังไม่ลบทิ้งจริง ณ จุดนี้
+              // ถ้า Occurrence No. เดียวกันแต่ Sub Topic ต่างกัน (เช่น Dispensing error กับ Administration error ในเหตุการณ์เดียว)
+              // จะไม่ถูกมองว่าซ้ำ เพราะเป็นความผิดพลาดคนละจุดที่ต้องนับแยก
+              const seenKeys = new Set();
+              mappedRows.forEach((r) => {
+                const key = getDedupeKey(r);
+                r._isDup = seenKeys.has(key);
+                seenKeys.add(key);
+              });
+
+              // ตรวจจับ HAD อัตโนมัติ (ยังแก้ไขได้ใน modal ก่อนยืนยัน)
+              pendingImportRows = mappedRows.map((row) => {
+                const withDetection = applyHadDetection({ ...row });
+                return {
+                  ...withDetection,
+                  _tempId: generateId(),
+                  _willImport: true,
+                };
+              });
+
+              showImportLoading(false);
+              openImportPreviewModal();
+            } catch (err) {
+              showImportLoading(false);
+              alert("เกิดข้อผิดพลาดระหว่างนำเข้าข้อมูล: " + err.message);
+            }
+          };
+          reader.readAsArrayBuffer(file);
+        }, 50);
+      }
+      function exportExcel() {
+        if (filteredData.length === 0) return alert("ไม่มีข้อมูล");
+        const exportData = filteredData.map((row) => {
+          let { _id, _hadAuto, _occNo, ...clean } = row;
+          return clean;
+        });
+        const ws = XLSX.utils.json_to_sheet(exportData);
+        const wb = XLSX.utils.book_new();
+        XLSX.utils.book_append_sheet(wb, ws, "Data");
+        XLSX.writeFile(wb, "incident_export.xlsx");
+      }
+      function clearData() {
+        if (
+          confirm(
+            "⚠️ ต้องการล้างข้อมูลทั้งหมด? (การกระทำนี้จะลบข้อมูลที่บันทึกไว้ในระบบด้วย)",
+          )
+        ) {
+          globalData = [];
+          filteredData = [];
+          localStorage.removeItem("medErrorData");
+          populateFilterDropdowns();
+          resetFilters();
+        }
+      }
+
+      // --- Add / Edit / Delete ---
+      function addData() {
+        const newData = {
+          _id: generateId(),
+          year: document.getElementById("f_Year").value,
+          month: document.getElementById("f_Month").value,
+          Date_Occ: document.getElementById("f_Date_Occ").value,
+          "หน่วยงานที่ต้องแก้ไข-1": document.getElementById("f_Dept").value,
+          Level: document.getElementById("f_Level").value,
+          "Sub Topic 1": document.getElementById("f_Sub1").value,
+          "Sub Topic 2": document.getElementById("f_Sub2").value,
+          HN: document.getElementById("f_HN").value,
+          concern_topic: document.getElementById("f_ConcernTopic").value,
+          inform_by: document.getElementById("f_InformBy").value,
+          รายละเอียด: document.getElementById("f_Detail").value,
+          "HAD / LASA": document.getElementById("f_HAD").value,
+          "Medication 1": document.getElementById("f_Med1").value,
+          "Medication 2": document.getElementById("f_Med2").value,
+        };
+        applyHadDetection(newData);
+        globalData.push(newData);
+        saveToLocalStorage();
+        populateFilterDropdowns();
+        applyFilters();
+        document.getElementById("incidentForm").reset();
+        alert(
+          newData._hadAuto
+            ? `เพิ่มข้อมูลเรียบร้อย (ระบบตรวจพบ HAD อัตโนมัติ: ${newData["HAD / LASA"]} กรุณาตรวจทานอีกครั้ง)`
+            : "เพิ่มข้อมูลเรียบร้อย",
+        );
+      }
+      function deleteRecord(id) {
+        if (confirm("⚠️ ยืนยันการลบข้อมูลนี้หรือไม่?")) {
+          globalData = globalData.filter((row) => row._id !== id);
+          saveToLocalStorage();
+          populateFilterDropdowns();
+          applyFilters();
+        }
+      }
+      function openEditModal(id) {
+        currentEditId = id;
+        const record = globalData.find((row) => String(row._id) === String(id));
+        if (record) {
+          document.getElementById("e_Year").value =
+            cleanYear(record["year"] || record["Year"]) || "";
+          document.getElementById("e_Month").value =
+            cleanMonth(record["month"] || record["Month"]) || "";
+          document.getElementById("e_Date_Occ").value =
+            record["Date_Occ"] || "";
+          document.getElementById("e_Dept").value =
+            record["หน่วยงานที่ต้องแก้ไข-1"] || "";
+          document.getElementById("e_Level").value = record["Level"] || "";
+          document.getElementById("e_Sub1").value = record["Sub Topic 1"] || "";
+          document.getElementById("e_Sub2").value = record["Sub Topic 2"] || "";
+          document.getElementById("e_HN").value = record["HN"] || "";
+          document.getElementById("e_ConcernTopic").value =
+            record["concern_topic"] || "";
+          document.getElementById("e_InformBy").value =
+            record["inform_by"] || "";
+          document.getElementById("e_Detail").value =
+            record["รายละเอียด"] || "";
+          document.getElementById("e_HAD").value = record["HAD / LASA"] || "";
+          document.getElementById("e_Med1").value =
+            record["Medication 1"] || "";
+          document.getElementById("e_Med2").value =
+            record["Medication 2"] || "";
+          document.getElementById("e_Med3").value =
+            record["Medication 3"] || "";
+          document.getElementById("e_Med4").value =
+            record["Medication 4"] || "";
+          document.getElementById("e_Med5").value =
+            record["Medication 5"] || "";
+          document.getElementById("e_Med6").value =
+            record["Medication 6"] || "";
+          new bootstrap.Modal(document.getElementById("editModal")).show();
+        }
+      }
+      function saveEdit() {
+        const index = globalData.findIndex(
+          (row) => String(row._id) === String(currentEditId),
+        );
+        if (index !== -1) {
+          globalData[index]["year"] = document.getElementById("e_Year").value;
+          globalData[index]["month"] = document.getElementById("e_Month").value;
+          globalData[index]["Date_Occ"] =
+            document.getElementById("e_Date_Occ").value;
+          globalData[index]["หน่วยงานที่ต้องแก้ไข-1"] =
+            document.getElementById("e_Dept").value;
+          globalData[index]["Level"] = document.getElementById("e_Level").value;
+          globalData[index]["Sub Topic 1"] =
+            document.getElementById("e_Sub1").value;
+          globalData[index]["Sub Topic 2"] =
+            document.getElementById("e_Sub2").value;
+          globalData[index]["HN"] = document.getElementById("e_HN").value;
+          globalData[index]["concern_topic"] =
+            document.getElementById("e_ConcernTopic").value;
+          globalData[index]["inform_by"] =
+            document.getElementById("e_InformBy").value;
+          globalData[index]["รายละเอียด"] =
+            document.getElementById("e_Detail").value;
+          globalData[index]["HAD / LASA"] =
+            document.getElementById("e_HAD").value;
+          globalData[index]["Medication 1"] =
+            document.getElementById("e_Med1").value;
+          globalData[index]["Medication 2"] =
+            document.getElementById("e_Med2").value;
+          globalData[index]["Medication 3"] =
+            document.getElementById("e_Med3").value;
+          globalData[index]["Medication 4"] =
+            document.getElementById("e_Med4").value;
+          globalData[index]["Medication 5"] =
+            document.getElementById("e_Med5").value;
+          globalData[index]["Medication 6"] =
+            document.getElementById("e_Med6").value;
+          delete globalData[index]["_hadAuto"];
+          applyHadDetection(globalData[index]);
+          saveToLocalStorage();
+          populateFilterDropdowns();
+          applyFilters();
+          bootstrap.Modal.getInstance(
+            document.getElementById("editModal"),
+          ).hide();
+        }
+      }
+
+      // ==========================================================================
+      // Filters
+      // ==========================================================================
+      function populateFilterDropdowns() {
+        const years = new Set(),
+          months = new Set(),
+          depts = new Set(),
+          topics = new Set(),
+          topics2 = new Set(),
+          levels = new Set(),
+          hads = new Set(),
+          concerns = new Set(),
+          informs = new Set();
+        globalData.forEach((row) => {
+          const yr = cleanYear(row["year"] || row["Year"]);
+          if (yr) years.add(yr);
+          const m = cleanMonth(row["month"] || row["Month"]);
+          if (m !== "N/A") months.add(m);
+          if (row["หน่วยงานที่ต้องแก้ไข-1"])
+            depts.add(String(row["หน่วยงานที่ต้องแก้ไข-1"]).trim());
+          if (row["Sub Topic 1"])
+            topics.add(standardizeTopic(row["Sub Topic 1"]));
+          if (row["Sub Topic 2"])
+            topics2.add(String(row["Sub Topic 2"]).trim());
+          if (row["Level"]) levels.add(String(row["Level"]).trim());
+          let had = row["HAD / LASA"];
+          if (had && String(had).trim() !== "" && String(had).trim() !== "-")
+            hads.add(String(had).trim());
+          if (row["concern_topic"])
+            concerns.add(String(row["concern_topic"]).trim());
+          if (row["inform_by"]) informs.add(String(row["inform_by"]).trim());
+        });
+        buildCheckboxMenu("filterYear", years);
+        buildCheckboxMenu("filterMonth", months, true);
+        buildCheckboxMenu("filterDept", depts);
+        buildCheckboxMenu("filterTopic", topics);
+        buildCheckboxMenu("filterTopic2", topics2);
+        buildCheckboxMenu("filterLevel", levels);
+        buildCheckboxMenu("filterHAD", hads);
+        buildCheckboxMenu("filterConcernTopic", concerns);
+        buildCheckboxMenu("filterInformBy", informs);
+      }
+      function buildCheckboxMenu(groupId, setObj, isMonth = false) {
+        const menu = document.getElementById(`menu_${groupId}`);
+        menu.innerHTML = "";
+        let sortedArr = [...setObj];
+        if (isMonth) {
+          sortedArr.sort((a, b) => {
+            let ia = monthOrder.findIndex((mo) =>
+              a.toLowerCase().includes(mo.toLowerCase()),
+            );
+            let ib = monthOrder.findIndex((mo) =>
+              b.toLowerCase().includes(mo.toLowerCase()),
+            );
+            return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+          });
+        } else {
+          sortedArr.sort();
+        }
+        sortedArr.forEach((item, index) => {
+          const safeId = `${groupId}_${index}`;
+          menu.innerHTML += `<li><div class="form-check px-3 py-1"><input class="form-check-input filter-checkbox" type="checkbox" value="${item}" id="${safeId}" data-group="${groupId}" onchange="applyFilters()"><label class="form-check-label w-100 text-truncate" for="${safeId}">${item}</label></div></li>`;
+        });
+      }
+      function getCheckedValues(groupId) {
+        return Array.from(
+          document.querySelectorAll(`input[data-group="${groupId}"]:checked`),
+        ).map((cb) => cb.value);
+      }
+      function updateButtonText(groupId, defaultText) {
+        const checked = getCheckedValues(groupId);
+        const btn = document.getElementById(`btn_${groupId}`);
+        if (checked.length === 0) btn.innerText = defaultText;
+        else if (checked.length === 1) btn.innerText = checked[0];
+        else btn.innerText = `Selected (${checked.length})`;
+      }
+      function getSelectedFilters() {
+        return {
+          years: getCheckedValues("filterYear"),
+          months: getCheckedValues("filterMonth"),
+          depts: getCheckedValues("filterDept"),
+          topics: getCheckedValues("filterTopic"),
+          topics2: getCheckedValues("filterTopic2"),
+          levels: getCheckedValues("filterLevel"),
+          hads: getCheckedValues("filterHAD"),
+          concerns: getCheckedValues("filterConcernTopic"),
+          informs: getCheckedValues("filterInformBy"),
+        };
+      }
+      function rowMatchesFilters(row, f, includeDate) {
+        if (includeDate) {
+          const passYear =
+            f.years.length === 0 ||
+            f.years.includes(cleanYear(row["year"] || row["Year"]) || "");
+          const passMonth =
+            f.months.length === 0 ||
+            f.months.includes(cleanMonth(row["month"] || row["Month"]));
+          if (!passYear || !passMonth) return false;
+        }
+        const passDept =
+          f.depts.length === 0 ||
+          f.depts.includes(String(row["หน่วยงานที่ต้องแก้ไข-1"] || "").trim());
+        const passTopic =
+          f.topics.length === 0 ||
+          f.topics.includes(standardizeTopic(row["Sub Topic 1"]));
+        const passTopic2 =
+          f.topics2.length === 0 ||
+          f.topics2.includes(String(row["Sub Topic 2"] || "").trim());
+        const passLevel =
+          f.levels.length === 0 ||
+          f.levels.includes(String(row["Level"] || "").trim());
+        const passHAD =
+          f.hads.length === 0 ||
+          f.hads.includes(String(row["HAD / LASA"] || "").trim());
+        const passConcern =
+          f.concerns.length === 0 ||
+          f.concerns.includes(String(row["concern_topic"] || "").trim());
+        const passInform =
+          f.informs.length === 0 ||
+          f.informs.includes(String(row["inform_by"] || "").trim());
+        return (
+          passDept &&
+          passTopic &&
+          passTopic2 &&
+          passLevel &&
+          passHAD &&
+          passConcern &&
+          passInform
+        );
+      }
+      function applyFilters() {
+        const f = getSelectedFilters();
+        updateButtonText("filterYear", "All");
+        updateButtonText("filterMonth", "All");
+        updateButtonText("filterDept", "All");
+        updateButtonText("filterTopic", "All");
+        updateButtonText("filterTopic2", "All");
+        updateButtonText("filterLevel", "All");
+        updateButtonText("filterHAD", "All");
+        updateButtonText("filterConcernTopic", "All");
+        updateButtonText("filterInformBy", "All");
+        filteredData = globalData.filter((row) =>
+          rowMatchesFilters(row, f, true),
+        );
+        document.getElementById("tableRecordCount").innerText =
+          `รายการทั้งหมด: ${filteredData.length} รายการ`;
+        updateUI();
+      }
+      function getTrendBaseData() {
+        const f = getSelectedFilters();
+        return globalData.filter((row) => rowMatchesFilters(row, f, false));
+      }
+      function resetFilters() {
+        document
+          .querySelectorAll(".filter-checkbox")
+          .forEach((cb) => (cb.checked = false));
+        applyFilters();
+      }
+      function updateUI() {
+        renderTable();
+        renderDashboard();
+      }
+
+      // ==========================================================================
+      // KPI cards: totals, % trend badges, "most frequent" cards
+      // ==========================================================================
+      function isMedicationRelated(row) {
+        const ct = String(row["concern_topic"] || "").toLowerCase();
+        if (ct.includes("medication")) return true;
+        return predefinedSubTopic1.includes(
+          standardizeTopic(row["Sub Topic 1"]),
+        );
+      }
+      function isHadRow(row) {
+        const h = row["HAD / LASA"];
+        return h && String(h).trim() !== "" && String(h).trim() !== "-";
+      }
+
+      // 1 เหตุการณ์ (Occurrence No.) อาจมีหลายแถวได้จาก 2 สาเหตุที่ต้องแยกกัน:
+      //   1) ถูก assign ให้หลายแผนกรับผิดชอบ แต่ Sub Topic (ประเภทความผิดพลาด) เหมือนกันทุกแถว
+      //      → ถือเป็น "1 เหตุการณ์" นับครั้งเดียว
+      //   2) เกิดความผิดพลาดต่อเนื่องกันเป็นทอด ๆ (chain of errors) เช่น เภสัชจ่ายยาผิด (Dispensing error)
+      //      แล้วพยาบาลบริหารยาที่ผิดนั้นต่อ (Administration error) - Sub Topic ไม่เหมือนกัน
+      //      → ถือเป็นความผิดพลาดคนละจุด ต้องนับแยก ไม่ dedupe ทิ้ง
+      // จึงต้อง dedupe ด้วย key = Occurrence No. + Sub Topic 1 (ไม่ใช่ Occurrence No. อย่างเดียว)
+      // (ยกเว้นกราฟ "By Department" ที่ต้องการนับแยกตามแผนกจริง ๆ - ดูใน renderDashboard)
+      function getDedupeKey(row) {
+        const occNo =
+          row._occNo && String(row._occNo).trim() !== ""
+            ? String(row._occNo).trim()
+            : null;
+        if (!occNo) return row._id || JSON.stringify(row);
+        return occNo + "||" + standardizeTopic(row["Sub Topic 1"]);
+      }
+      function dedupeByOccurrence(data) {
+        const seen = new Set();
+        const result = [];
+        data.forEach((r) => {
+          const key = getDedupeKey(r);
+          if (!seen.has(key)) {
+            seen.add(key);
+            result.push(r);
+          }
+        });
+        return result;
+      }
+      function getMostFrequent(data, field) {
+        const counts = {};
+        data.forEach((r) => {
+          const v = String(r[field] || "").trim();
+          if (v && v !== "-") counts[v] = (counts[v] || 0) + 1;
+        });
+        const entries = Object.entries(counts);
+        if (entries.length === 0) return null;
+        entries.sort((a, b) => b[1] - a[1]);
+        return { value: entries[0][0], count: entries[0][1] };
+      }
+      function getPeriodKey(row, granularity) {
+        const yr = cleanYear(row["year"] || row["Year"]);
+        if (!yr) return null;
+        if (granularity === "year") return yr;
+        const m = cleanMonth(row["month"] || row["Month"]);
+        if (m === "N/A") return null;
+        const idx = monthOrder.findIndex((mo) =>
+          m.toLowerCase().includes(mo.toLowerCase()),
+        );
+        if (idx === -1) return null;
+        return `${yr}-${String((idx % 12) + 1).padStart(2, "0")}`;
+      }
+      function computeTrend(data, granularity) {
+        const map = {};
+        data.forEach((r) => {
+          const k = getPeriodKey(r, granularity);
+          if (k) map[k] = (map[k] || 0) + 1;
+        });
+        const keys = Object.keys(map).sort();
+        if (keys.length === 0)
+          return { current: 0, previous: 0, percent: null };
+        const currentKey = keys[keys.length - 1];
+        const previousKey = keys.length > 1 ? keys[keys.length - 2] : null;
+        const current = map[currentKey] || 0;
+        const previous = previousKey ? map[previousKey] || 0 : 0;
+        let percent = null;
+        if (previousKey)
+          percent =
+            previous === 0
+              ? current > 0
+                ? 100
+                : 0
+              : Math.round(((current - previous) / previous) * 1000) / 10;
+        return { current, previous, percent, currentKey, previousKey };
+      }
+      function renderTrendBadge(trend, badgeId, subId, invert = false) {
+        const badge = document.getElementById(badgeId),
+          sub = document.getElementById(subId);
+        if (trend.percent === null) {
+          badge.style.display = "none";
+          sub.innerText = "ยังไม่มีข้อมูลพอเปรียบเทียบ";
+          return;
+        }
+        const increased = trend.percent >= 0;
+        // สำหรับตัวชี้วัด "ความผิดพลาด" (Med Err / HAD) เพิ่มขึ้น = แย่ลง (แดง), ลดลง = ดีขึ้น (เขียว)
+        const isGood = invert ? !increased : increased;
+        badge.className = "kpi-badge " + (isGood ? "up" : "down");
+        badge.style.display = "inline-block";
+        badge.innerText =
+          (increased ? "▲ " : "▼ ") + Math.abs(trend.percent) + "%";
+        sub.innerText =
+          (trendGranularity === "month"
+            ? "เทียบเดือนก่อนหน้า "
+            : "เทียบปีก่อนหน้า ") +
+          `(${trend.previousKey} → ${trend.currentKey})`;
+      }
+      function renderKpiCards() {
+        // dedupe ตาม Occurrence No. ก่อนนับ - กัน 1 เหตุการณ์ที่ถูก assign หลายแผนกถูกนับเป็นหลายครั้ง
+        const dedupedFiltered = dedupeByOccurrence(filteredData);
+        const medRows = dedupedFiltered.filter(isMedicationRelated);
+        const hadRows = dedupedFiltered.filter(isHadRow);
+        document.getElementById("kpiTotal").innerText = medRows.length;
+        document.getElementById("kpiHAD").innerText = hadRows.length;
+
+        const trendBase = dedupeByOccurrence(getTrendBaseData());
+        renderTrendBadge(
+          computeTrend(trendBase.filter(isMedicationRelated), trendGranularity),
+          "kpiTotalBadge",
+          "kpiTotalSub",
+          true,
+        );
+        renderTrendBadge(
+          computeTrend(trendBase.filter(isHadRow), trendGranularity),
+          "kpiHADBadge",
+          "kpiHADSub",
+          true,
+        );
+
+        const topConcern = getMostFrequent(dedupedFiltered, "concern_topic");
+        document.getElementById("kpiTopConcern").innerText = topConcern
+          ? topConcern.value
+          : "-";
+        document.getElementById("kpiTopConcernSub").innerText = topConcern
+          ? `${topConcern.count} เหตุการณ์`
+          : "ไม่มีข้อมูล";
+
+        const topReporter = getMostFrequent(dedupedFiltered, "inform_by");
+        document.getElementById("kpiTopReporter").innerText = topReporter
+          ? topReporter.value
+          : "-";
+        document.getElementById("kpiTopReporterSub").innerText = topReporter
+          ? `${topReporter.count} รายงาน`
+          : "ไม่มีข้อมูล";
+      }
+
+      // ==========================================================================
+      // Data Table
+      // ==========================================================================
+      function renderTable() {
+        const tbody = document.getElementById("tableBody");
+        tbody.innerHTML = "";
+        filteredData.forEach((row) => {
+          let meds = [];
+          for (let i = 1; i <= 6; i++) {
+            let med = row[`Medication ${i}`];
+            if (med && String(med).trim() !== "" && String(med).trim() !== "-")
+              meds.push(String(med).trim());
+          }
+          let hadString =
+            row["HAD / LASA"] && String(row["HAD / LASA"]).trim() !== "-"
+              ? row["HAD / LASA"]
+              : "-";
+          const hadBadge = row["_hadAuto"]
+            ? ' <span class="badge bg-warning text-dark" title="ระบบตรวจพบอัตโนมัติ กรุณาตรวจทาน">🔍 auto</span>'
+            : "";
+          const tr = document.createElement("tr");
+          tr.innerHTML = `
+            <td class="action-btns text-center"><button class="btn btn-outline-primary btn-sm" onclick="openEditModal('${row._id}')">✏️</button><button class="btn btn-outline-danger btn-sm mt-1" onclick="deleteRecord('${row._id}')">🗑️</button></td>
+            <td>${cleanYear(row["year"] || row["Year"]) || ""}</td><td>${cleanMonth(row["month"] || row["Month"])}</td><td>${row["Date_Occ"] || ""}</td>
+            <td>${row["หน่วยงานที่ต้องแก้ไข-1"] || ""}</td><td><span class="badge bg-secondary">${row["Level"] || ""}</span></td>
+            <td>${standardizeTopic(row["Sub Topic 1"])}</td><td>${row["Sub Topic 2"] || ""}</td>
+            <td class="${hadString !== "-" ? "text-danger fw-bold" : ""}">${hadString}${hadBadge}</td>
+            <td><small>${row["concern_topic"] || "-"}</small></td><td><small>${row["inform_by"] || "-"}</small></td>
+            <td><small>${meds.length > 0 ? meds.join(", ") : "-"}</small></td><td><small>${(row["รายละเอียด"] || "").substring(0, 80)}...</small></td>
+        `;
+          tbody.appendChild(tr);
+        });
+      }
+
+      function buildTrendTable(
+        tableId,
+        rowLabels,
+        colLabels,
+        dataObj,
+        rowLabelTitle,
+        rowColorFn,
+      ) {
+        if (colLabels.length === 0 || rowLabels.length === 0) {
+          document.getElementById(tableId).innerHTML =
+            "<tr><td class='text-muted p-3'>ไม่มีข้อมูล</td></tr>";
+          return;
+        }
+        let thead = `<thead><tr><th class="text-start" style="min-width:120px;">${rowLabelTitle}</th>`;
+        colLabels.forEach((col) => (thead += `<th>${col}</th>`));
+        thead += `<th>Total</th></tr></thead>`;
+        let tbody = `<tbody>`;
+        let colTotals = Array(colLabels.length).fill(0);
+        let grandTotal = 0;
+        rowLabels.forEach((row) => {
+          const color = rowColorFn ? rowColorFn(row) : null;
+          const dot = color
+            ? `<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${color};margin-right:6px;vertical-align:middle;"></span>`
+            : "";
+          const labelStyle = color ? `style="color:${color};"` : "";
+          let tr = `<tr${color ? ` style="background:${color}12;"` : ""}><td class="text-start fw-bold text-truncate" style="max-width:150px;" title="${row}"><span ${labelStyle}>${dot}${row}</span></td>`;
+          let rowTotal = 0;
+          colLabels.forEach((col, i) => {
+            let val = dataObj[col] && dataObj[col][row] ? dataObj[col][row] : 0;
+            tr += `<td>${val > 0 ? val : '<span class="text-muted">-</span>'}</td>`;
+            rowTotal += val;
+            colTotals[i] += val;
+          });
+          grandTotal += rowTotal;
+          tr += `<td class="fw-bold" style="color:var(--red);">${rowTotal > 0 ? rowTotal : "-"}</td></tr>`;
+          tbody += tr;
+        });
+        tbody += `</tbody>`;
+        let tfoot = `<tfoot><tr><td class="text-start">Total</td>`;
+        colTotals.forEach(
+          (tot) => (tfoot += `<td>${tot > 0 ? tot : "-"}</td>`),
+        );
+        tfoot += `<td style="color:var(--red);">${grandTotal}</td></tr></tfoot>`;
+        document.getElementById(tableId).innerHTML = thead + tbody + tfoot;
+      }
+
+      // ==========================================================================
+      // Dashboard charts
+      // ==========================================================================
+      function renderDashboard() {
+        const monthLevelCount = {};
+        const monthTopicCount = {};
+        const levelCount = {};
+        const deptCount = {};
+        const medCount = {};
+        const topicCount = {};
+        const topic2Count = {};
+
+        // Department: นับจากทุกแถว (ไม่ dedupe) เพราะ 1 เหตุการณ์อาจถูก assign ให้หลายแผนกรับผิดชอบจริง ๆ
+        // ต้องการให้แต่ละแผนกที่เกี่ยวข้องถูกนับ ไม่ใช่นับแค่แผนกแรกที่เจอ
+        filteredData.forEach((row) => {
+          const dept = row["หน่วยงานที่ต้องแก้ไข-1"] || "N/A";
+          deptCount[dept] = (deptCount[dept] || 0) + 1;
+        });
+
+        // ส่วนอื่นทั้งหมด (Level, Sub Topic, Medication, แนวโน้มรายเดือน) นับจากเหตุการณ์ที่ไม่ซ้ำ (1 Occurrence No. = 1 ครั้ง)
+        // ป้องกันไม่ให้เหตุการณ์เดียวที่ถูก assign หลายแผนกถูกนับซ้ำเป็นหลายเหตุการณ์
+        const dedupedForCounting = dedupeByOccurrence(filteredData);
+        dedupedForCounting.forEach((row) => {
+          const m = cleanMonth(row["month"] || row["Month"]);
+          const lvl = String(row["Level"] || "N/A").trim();
+          const topic = standardizeTopic(row["Sub Topic 1"]);
+          const topic2 = row["Sub Topic 2"] || "N/A";
+
+          if (m !== "N/A") {
+            if (!monthLevelCount[m]) monthLevelCount[m] = {};
+            monthLevelCount[m][lvl] = (monthLevelCount[m][lvl] || 0) + 1;
+            if (!monthTopicCount[m]) monthTopicCount[m] = {};
+            monthTopicCount[m][topic] = (monthTopicCount[m][topic] || 0) + 1;
+          }
+          levelCount[lvl] = (levelCount[lvl] || 0) + 1;
+          if (topic !== "N/A") topicCount[topic] = (topicCount[topic] || 0) + 1;
+          if (topic2 !== "N/A")
+            topic2Count[topic2] = (topic2Count[topic2] || 0) + 1;
+          for (let i = 1; i <= 6; i++) {
+            let med = row[`Medication ${i}`];
+            if (med && String(med).trim() !== "" && String(med).trim() !== "-")
+              medCount[String(med).trim().toUpperCase()] =
+                (medCount[String(med).trim().toUpperCase()] || 0) + 1;
+          }
+        });
+
+        renderKpiCards();
+
+        const pieDataLabelsConfig = {
+          color: "#fff",
+          font: { weight: "bold", size: 11 },
+          textStrokeColor: "rgba(0,0,0,0.5)",
+          textStrokeWidth: 2,
+          formatter: (value, ctx) => {
+            let sum = ctx.chart.data.datasets[0].data.reduce(
+              (a, b) => a + b,
+              0,
+            );
+            let pct = ((value * 100) / sum).toFixed(1) + "%";
+            return (value * 100) / sum > 4 ? pct : "";
+          },
+        };
+
+        // --- Level donut (แสดงเฉพาะ Level ที่เป็นตัวอักษร A-I เท่านั้น ไม่รวม Level ตัวเลขที่ดึงจากไฟล์ดิบ) ---
+        const ctxLevel = document
+          .getElementById("levelPieChart")
+          .getContext("2d");
+        if (chartLevelPie) chartLevelPie.destroy();
+        const letterLevelCount = {};
+        Object.keys(levelCount).forEach((lvl) => {
+          const l = lvl.trim().toUpperCase();
+          if (/^[A-I]$/.test(l))
+            letterLevelCount[l] = (letterLevelCount[l] || 0) + levelCount[lvl];
+        });
+        const sortedLetterLevels = Object.keys(letterLevelCount).sort();
+        chartLevelPie = new Chart(ctxLevel, {
+          type: "doughnut",
+          data: {
+            labels: sortedLetterLevels.map((l) => "Level " + l),
+            datasets: [
+              {
+                data: sortedLetterLevels.map((l) => letterLevelCount[l]),
+                backgroundColor: sortedLetterLevels.map(
+                  (l) => levelColors[l] || "#c8cbd6",
+                ),
+                borderWidth: 0,
+              },
+            ],
+          },
+          options: {
+            maintainAspectRatio: false,
+            cutout: "68%",
+            plugins: {
+              legend: { position: "right", labels: { boxWidth: 12 } },
+              datalabels: pieDataLabelsConfig,
+              centerText: { display: true },
+            },
+          },
+        });
+
+        // --- Sub Topic 1 donut (กรองมาเฉพาะ 12 หมวด Medication Error ตามที่กำหนด) ---
+        const ctxTopicPie = document
+          .getElementById("subTopicPieChart")
+          .getContext("2d");
+        if (chartSubTopicPie) chartSubTopicPie.destroy();
+        const medTopicCount = {};
+        Object.keys(topicCount).forEach((t) => {
+          if (predefinedSubTopic1.includes(t)) medTopicCount[t] = topicCount[t];
+        });
+        const sortedTopicsForPie = predefinedSubTopic1.filter(
+          (t) => medTopicCount[t] > 0,
+        );
+        chartSubTopicPie = new Chart(ctxTopicPie, {
+          type: "doughnut",
+          data: {
+            labels: sortedTopicsForPie,
+            datasets: [
+              {
+                data: sortedTopicsForPie.map((t) => medTopicCount[t]),
+                backgroundColor: sortedTopicsForPie.map(
+                  (t) => TOPIC_COLORS[t] || "#c8cbd6",
+                ),
+                borderWidth: 0,
+              },
+            ],
+          },
+          options: {
+            maintainAspectRatio: false,
+            cutout: "68%",
+            plugins: {
+              legend: {
+                position: "right",
+                labels: { boxWidth: 10, font: { size: 10 } },
+              },
+              datalabels: pieDataLabelsConfig,
+              centerText: { display: true },
+            },
+          },
+        });
+
+        const barDataLabelsConfig = {
+          display: true,
+          align: "end",
+          anchor: "end",
+          color: "#333",
+          font: { weight: "bold" },
+          formatter: Math.round,
+        };
+
+        const ctxDept = document.getElementById("deptChart").getContext("2d");
+        if (chartDept) chartDept.destroy();
+        const sortedDept = Object.entries(deptCount)
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 10);
+        chartDept = new Chart(ctxDept, {
+          type: "bar",
+          data: {
+            labels: sortedDept.map((d) => d[0]),
+            datasets: [
+              {
+                data: sortedDept.map((d) => d[1]),
+                backgroundColor: "#4f7cff",
+                borderRadius: 8,
+                borderSkipped: false,
+              },
+            ],
+          },
+          options: {
+            maintainAspectRatio: false,
+            indexAxis: "y",
+            plugins: {
+              legend: { display: false },
+              datalabels: barDataLabelsConfig,
+            },
+            scales: { x: { display: false }, y: { grid: { display: false } } },
+            layout: { padding: { right: 30 } },
+          },
+        });
+
+        const ctxTopic2 = document
+          .getElementById("subTopic2Chart")
+          .getContext("2d");
+        if (chartSubTopic2) chartSubTopic2.destroy();
+        const sortedTopic2 = Object.entries(topic2Count)
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 10);
+        chartSubTopic2 = new Chart(ctxTopic2, {
+          type: "bar",
+          data: {
+            labels: sortedTopic2.map(
+              (t) => t[0].substring(0, 18) + (t[0].length > 18 ? "..." : ""),
+            ),
+            datasets: [
+              {
+                data: sortedTopic2.map((t) => t[1]),
+                backgroundColor: "#ff6b6b",
+                borderRadius: 8,
+                borderSkipped: false,
+              },
+            ],
+          },
+          options: {
+            maintainAspectRatio: false,
+            indexAxis: "y",
+            plugins: {
+              legend: { display: false },
+              datalabels: barDataLabelsConfig,
+            },
+            scales: { x: { display: false }, y: { grid: { display: false } } },
+            layout: { padding: { right: 30 } },
+          },
+        });
+
+        const ctxMed = document.getElementById("medChart").getContext("2d");
+        if (chartMed) chartMed.destroy();
+        const sortedMed = Object.entries(medCount)
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 10);
+        chartMed = new Chart(ctxMed, {
+          type: "bar",
+          data: {
+            labels: sortedMed.map((m) => m[0]),
+            datasets: [
+              {
+                data: sortedMed.map((m) => m[1]),
+                backgroundColor: "#ffb84f",
+                borderRadius: 8,
+                borderSkipped: false,
+              },
+            ],
+          },
+          options: {
+            maintainAspectRatio: false,
+            indexAxis: "y",
+            plugins: {
+              legend: { display: false },
+              datalabels: barDataLabelsConfig,
+            },
+            scales: { x: { display: false }, y: { grid: { display: false } } },
+            layout: { padding: { right: 30 } },
+          },
+        });
+
+        let sortedMonths = Object.keys(monthLevelCount).sort((a, b) => {
+          let ia = monthOrder.findIndex((mo) =>
+            a.toLowerCase().includes(mo.toLowerCase()),
+          );
+          let ib = monthOrder.findIndex((mo) =>
+            b.toLowerCase().includes(mo.toLowerCase()),
+          );
+          return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+        });
+
+        // --- Stacked month chart (Level) - แสดงเฉพาะ Level ตัวอักษร A-I เท่านั้น (ไม่รวม Level ตัวเลขจากไฟล์ดิบ) ---
+        const activeLevels = Object.keys(levelCount)
+          .filter((l) => /^[A-I]$/i.test(String(l).trim()))
+          .sort((a, b) =>
+            a.trim().toUpperCase().localeCompare(b.trim().toUpperCase()),
+          );
+        const stackedLevelDatasets = activeLevels.map((lvl) => ({
+          label: "Level " + lvl,
+          data: sortedMonths.map((m) => monthLevelCount[m][lvl] || 0),
+          backgroundColor: levelColors[lvl.trim().toUpperCase()] || "#c8cbd6",
+          borderRadius: 4,
+          borderSkipped: false,
+        }));
+
+        const ctxMonthStacked = document
+          .getElementById("monthStackedChart")
+          .getContext("2d");
+        if (chartMonthStacked) chartMonthStacked.destroy();
+        chartMonthStacked = new Chart(ctxMonthStacked, {
+          type: "bar",
+          data: {
+            labels: sortedMonths.length > 0 ? sortedMonths : ["ไม่มีข้อมูล"],
+            datasets:
+              stackedLevelDatasets.length > 0
+                ? stackedLevelDatasets
+                : [{ data: [0] }],
+          },
+          options: {
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                display: true,
+                position: "right",
+                labels: {
+                  boxWidth: 10,
+                  usePointStyle: true,
+                  font: { size: 11 },
+                },
+              },
+              datalabels: {
+                display: (ctx) => ctx.dataset.data[ctx.dataIndex] > 0,
+                color: "#fff",
+                textStrokeColor: "rgba(0,0,0,0.5)",
+                textStrokeWidth: 2,
+                font: { weight: "bold", size: 10 },
+                formatter: Math.round,
+              },
+            },
+            scales: {
+              x: { stacked: true, grid: { display: false } },
+              y: { stacked: true, display: true, beginAtZero: true },
+            },
+            layout: { padding: { right: 10 } },
+          },
+        });
+        buildTrendTable(
+          "tableTrendLevel",
+          activeLevels.map((l) => "Level " + l),
+          sortedMonths,
+          Object.fromEntries(
+            Object.entries(monthLevelCount).map(([k, v]) => [
+              k,
+              Object.fromEntries(
+                Object.entries(v).map(([lk, lv]) => ["Level " + lk, lv]),
+              ),
+            ]),
+          ),
+          "ระดับ (Level)",
+          (rowLabel) =>
+            levelColors[rowLabel.replace("Level ", "").trim().toUpperCase()] ||
+            null,
+        );
+
+        // --- Stacked month chart (Sub Topic 1) ---
+        // แสดงเฉพาะ 12 หมวด Medication Error ตามที่กำหนด (กรองแบบเดียวกับการ์ด donut Incident Types ด้านบน)
+        const activeTopics = [
+          ...new Set(
+            filteredData.map((r) => standardizeTopic(r["Sub Topic 1"])),
+          ),
+        ].filter((t) => predefinedSubTopic1.includes(t));
+        activeTopics.sort((a, b) => {
+          let ia = predefinedSubTopic1.indexOf(a);
+          let ib = predefinedSubTopic1.indexOf(b);
+          return ia - ib;
+        });
+        const stackedTopicDatasets = activeTopics.map((topic, i) => ({
+          label: topic,
+          data: sortedMonths.map((m) => monthTopicCount[m]?.[topic] || 0),
+          backgroundColor:
+            TOPIC_COLORS[topic] || flatColors[i % flatColors.length],
+          borderRadius: 4,
+          borderSkipped: false,
+        }));
+
+        const ctxMonthTopicStacked = document
+          .getElementById("monthTopicStackedChart")
+          .getContext("2d");
+        if (chartMonthTopicStacked) chartMonthTopicStacked.destroy();
+        chartMonthTopicStacked = new Chart(ctxMonthTopicStacked, {
+          type: "bar",
+          data: {
+            labels: sortedMonths.length > 0 ? sortedMonths : ["ไม่มีข้อมูล"],
+            datasets:
+              stackedTopicDatasets.length > 0
+                ? stackedTopicDatasets
+                : [{ data: [0] }],
+          },
+          options: {
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                display: true,
+                position: "right",
+                labels: { boxWidth: 10, font: { size: 10 } },
+              },
+              datalabels: {
+                display: (ctx) => ctx.dataset.data[ctx.dataIndex] > 0,
+                color: "#fff",
+                textStrokeColor: "rgba(0,0,0,0.5)",
+                textStrokeWidth: 2,
+                font: { weight: "bold", size: 10 },
+                formatter: Math.round,
+              },
+            },
+            scales: {
+              x: { stacked: true, grid: { display: false } },
+              y: { stacked: true, display: true, beginAtZero: true },
+            },
+            layout: { padding: { right: 10 } },
+          },
+        });
+        buildTrendTable(
+          "tableTrendTopic",
+          activeTopics,
+          sortedMonths,
+          monthTopicCount,
+          "ประเภทความเสี่ยง",
+        );
+      }
+    </script>
+
+    <!-- ============ Import Loading Overlay ============ -->
+    <div id="importLoadingOverlay">
+      <div class="import-spinner"></div>
+      <div class="import-loading-text">กำลังนำเข้าข้อมูล...</div>
+      <div class="import-loading-sub">
+        กรุณารอสักครู่ ระบบกำลังอ่านไฟล์และตรวจจับ HAD
+      </div>
+    </div>
+  </body>
+</html>
